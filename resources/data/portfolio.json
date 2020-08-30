@@ -1,0 +1,99 @@
+{
+  "info-portfolio": {
+    "title": "We make your experience more ",
+    "text-info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.",
+    "img": "images/portfolio/img.png"
+  },
+  "portfolio-item": [
+    {
+      "settings": "",
+      "color": "orange",
+      "color-text": "black",
+      "bg-text": "Grandeur",
+      "mob-title": "Grandeur",
+      "img": "images/portfolio/grandeur.png",
+      "title-text": "Grandeur",
+      "align": "justify-content-center",
+      "size-text": "5",
+      "text": "This project was done for Yelzhan Nassenov. He provided us with a wireframes that required us to make a client-friendly site with landing page.",
+      "link": "portfolio-item.html"
+    },
+    {
+      "settings": "flex-row-reverse",
+      "color": "#636363",
+      "color-text": "black",
+      "bg-text": "Helpex",
+      "mob-title": "Helpex",
+      "img": "images/portfolio/helpex.png",
+      "title-text": "Helpex",
+      "left": "left",
+      "align": "justify-content-start",
+      "size-text": "4",
+      "text": "This project was done for Yelzhan Nassenov. He provided us with a wireframes that required us to make a client-friendly site with landing page.",
+      "position": "left",
+      "link": "portfolio-item.html"
+    },
+    {
+      "settings": "",
+      "color": "black",
+      "color-text": "red",
+      "bg-text": "ScreenSaver",
+      "mob-title": "ScreenSaver",
+      "img": "images/portfolio/item.jpg",
+      "title-text": "ScreenSaver",
+      "align": "justify-content-center",
+      "size-text": "5",
+      "text": "This project was done for Yelzhan Nassenov. He provided us with a wireframes that required us to make a client-friendly site with landing page.",
+      "link": "portfolio-item.html"
+    }
+  ],
+  "portfolio-item-two": [
+    {
+      "settings": "",
+      "color": "black",
+      "color-text": "red",
+      "bg-text": "Giant",
+      "mob-title": "Giant",
+      "img": "images/portfolio/item.jpg",
+      "title-text": "Giant",
+      "align": "justify-content-center portfolio-all__left-content",
+      "size-text": "5",
+      "text": "This project was done for Yelzhan Nassenov. He provided us with a wireframes that required us to make a client-friendly site with landing page.",
+      "link": "portfolio-item.html"
+    },
+    {
+      "settings": "",
+      "color": "red",
+      "bg-text": "ScreenSaver",
+      "mob-title": "<h2 class=\"mob-text\">ScreenSaver</h2>",
+      "img": "images/portfolio/item.jpg",
+      "title-text": "ScreenSaver",
+      "align": "justify-content-center",
+      "size-text": "5",
+      "text": "This project was done for Yelzhan Nassenov. He provided us with a wireframes that required us to make a client-friendly site with landing page.",
+      "link": "portfolio-item.html"
+    },
+    {
+      "settings": "flex-row-reverse",
+      "color": "#636363",
+      "bg-text": "Giant",
+      "color-text": "red",
+      "mob-title": "Giant",
+      "img": "images/portfolio/no-image.jpg",
+      "title-text": "Giant",
+      "left": "left",
+      "align": "justify-content-start",
+      "size-text": "4",
+      "text": "This project was done for Yelzhan Nassenov. He provided us with a wireframes that required us to make a client-friendly site with landing page.",
+      "position": "left",
+      "link": "portfolio-item.html"
+    }
+  ],
+  "hire-portfolio": [
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.",
+      "link_text": "Let’s talk",
+      "link_url": "contact.html"
+    }
+]
+}

@@ -1,0 +1,199 @@
+{
+  "page-title": "What We Do - SPLIT Development",
+  "capabilities": [
+    {
+      "avatar": "images/lorem-picsum--avatar.svg",
+      "title": "Visual Branding",
+      "marker-class": "color-1",
+      "description": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "projects": [
+        {
+          "href": "#",
+          "label": "SPLIT,"
+        },
+        {
+          "href": "#",
+          "label": "ScreenSaver,"
+        },
+        {
+          "href": "#",
+          "label": "Wealth,"
+        },
+        {
+          "href": "#",
+          "label": "Nibou"
+        }
+      ]
+    },
+    {
+      "avatar": "images/lorem-picsum--avatar.svg",
+      "title": "Visual Branding",
+      "marker-class": "color-2",
+      "description": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "projects": [
+        {
+          "href": "#",
+          "label": "SPLIT,"
+        },
+        {
+          "href": "#",
+          "label": "ScreenSaver,"
+        },
+        {
+          "href": "#",
+          "label": "Wealth,"
+        },
+        {
+          "href": "#",
+          "label": "Nibou"
+        }
+      ]
+    },
+    {
+      "avatar": "images/lorem-picsum--avatar.svg",
+      "title": "Visual Branding",
+      "marker-class": "color-3",
+      "description": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "projects": [
+        {
+          "href": "#",
+          "label": "SPLIT,"
+        },
+        {
+          "href": "#",
+          "label": "ScreenSaver,"
+        },
+        {
+          "href": "#",
+          "label": "Wealth,"
+        },
+        {
+          "href": "#",
+          "label": "Nibou"
+        }
+      ]
+    },
+    {
+      "avatar": "images/lorem-picsum--avatar.svg",
+      "title": "Visual Branding",
+      "marker-class": "color-4",
+      "description": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "projects": [
+        {
+          "href": "#",
+          "label": "SPLIT,"
+        },
+        {
+          "href": "#",
+          "label": "ScreenSaver,"
+        },
+        {
+          "href": "#",
+          "label": "Wealth,"
+        },
+        {
+          "href": "#",
+          "label": "Nibou"
+        }
+      ]
+    },
+    {
+      "avatar": "images/lorem-picsum--avatar.svg",
+      "title": "Visual Branding",
+      "marker-class": "color-5",
+      "description": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "projects": [
+        {
+          "href": "#",
+          "label": "SPLIT,"
+        },
+        {
+          "href": "#",
+          "label": "ScreenSaver,"
+        },
+        {
+          "href": "#",
+          "label": "Wealth,"
+        },
+        {
+          "href": "#",
+          "label": "Nibou"
+        }
+      ]
+    },
+    {
+      "avatar": "images/lorem-picsum--avatar.svg",
+      "title": "Visual Branding",
+      "marker-class": "color-6",
+      "description": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "projects": [
+        {
+          "href": "#",
+          "label": "SPLIT,"
+        },
+        {
+          "href": "#",
+          "label": "ScreenSaver,"
+        },
+        {
+          "href": "#",
+          "label": "Wealth,"
+        },
+        {
+          "href": "#",
+          "label": "Nibou"
+        }
+      ]
+    }
+  ],
+  "our-way": [
+    {
+      "src": "images/how-we-work/brainstorming.svg",
+      "title": "DISCUSS",
+      "description": "To discover your problem through research and learnings",
+      "process": [
+        {
+          "label": "Product observation"
+        },
+        {
+          "label": "Brainstorming"
+        },
+        {
+          "label": "Competitive analysis"
+        }
+      ]
+    },
+    {
+      "src": "images/how-we-work/project.svg",
+      "title": "MAPPING",
+      "description": "To structure the process and solve your problem.",
+      "process": [
+        {
+          "label": "Competitive analysis"
+        },
+        {
+          "label": "Brainstorming"
+        },
+        {
+          "label": "Product observation"
+        }
+      ]
+    },
+    {
+      "src": "images/how-we-work/hand.svg",
+      "title": "EXECUTION",
+      "description": "Turn our thinking into stand out visual output.",
+      "process": [
+        {
+          "label": "Brainstorming"
+        },
+        {
+          "label": "Product observation"
+        },
+        {
+          "label": "Competitive analysis"
+        }
+      ]
+    }
+  ]
+}

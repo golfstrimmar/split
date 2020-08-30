@@ -1,0 +1,67 @@
+.hire-us {
+  padding-bottom: 56px;
+  // .hire-us__body
+
+  &__body {
+    margin-bottom: 46px;
+  }
+
+  // .hire-us__title
+
+  &__title {
+    width: 100%;
+    margin-bottom: 28px;
+
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 0.83px;
+
+    color: theme-color("white");
+    font-family: $font-family-poppins;
+    font-weight: $font-weight-bold;
+  }
+
+  // .hire-us__desc
+
+  &__desc {
+    margin-bottom: 0;
+
+    font-size: 1.125rem;
+    line-height: 2rem;
+
+    color: theme-color("gray4");
+  }
+
+  // .hire-us__btn
+
+  &__btn {
+    max-width: 100%;
+    padding: 24px 10px;
+
+    font-size: 1.125rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    &__body {
+      max-width: 520px;
+      margin-bottom: 0;
+    }
+
+    &__btn {
+      max-width: 300px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 190px;
+
+    &__title {
+      font-size: 3rem;
+      line-height: 4.5rem;
+      margin-bottom: 25px;
+    }
+
+    &__desc {
+      font-size: 1.3125rem;
+    }
+  }
+}

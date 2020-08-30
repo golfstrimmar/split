@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="how-we-work howworkjs">
+{{!-- {{> ../common/header }} --}}
+{{> ../common/header-white}}
+
+<section class="work-tabs" style="background-image: url('images/how-we-work/bg-how.png')">
+    <h1>What Are <span class="red-span">You</span> Interested in?</h1>
+    <div class="work-tabs__wrapper">
+        <div class="filter-box__tabs ">
+            <ul class="nav nav-tabs " id="myTab" role="tablist">
+                <li class="nav-item ">
+                    <img src="images/portfolio/artist.svg" alt="Design">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#design" role="tab" data-name="design" aria-controls="Design" aria-selected="false">Design</a>
+                </li>
+                <li class="nav-item">
+                    <img src="images/portfolio/frontend.svg" alt="Frontend">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#frontend" role="tab" data-name="frontend" aria-controls="Frontend" aria-selected="false">Frontend</a>
+                </li>
+                <li class="nav-item">
+                    <img src="images/portfolio/backend.svg" alt="Backend">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#backend" role="tab" data-name="backend" aria-controls="Backend" aria-selected="false">Backend</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="work-content margin-footer">
+    <div class="container position-relative left-position-text__container">
+        <div class="work-content__content" id="workTabContent">
+            <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="left-position-text">
+                    <span>Backend</span>
+                </div>
+                <div class="scrolling__container ">
+                    <p class="bg-text rellax ">Backend</p>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="frontend" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="left-position-text">
+                    <span>Frontend</span>
+                </div>
+                <div class="scrolling__container ">
+                    <p class="bg-text rellax ">Frontend</p>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade show active" id="design" role="tabpanel" aria-labelledby="profile-tab">
+               
+                <div class="left-position-text">
+                    <span>Design Process</span>
+                </div>
+              
+                 <div class="scrolling__container ">
+                    <p class="bg-text rellax ">Design Process</p>
+                </div>
+  
+                <div class="work-content__inner-container">
+               
+                <h2>UX/UI Design Process</h2>
+              
+                <img src="images/how-we-work/how-img-1.png" alt="Split Development">
+              
+                <div class="work-content__content-section">
+                    <div class="work-content__inner-heading">
+                        {{!-- <img src="images/how-we-work/circle-shape.svg"> --}}
+                        <h3 class="red-first-letter">Research</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh
+                        finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet
+                        augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis libero,
+                        vitae commodo nunc quam et ligula.</p>
+                </div>
+              
+                <div class="work-content__content-section">
+                    <div class="work-content__inner-heading">
+                        {{!-- <img src="images/how-we-work/circle-shape.svg"> --}}
+                        <h3 class="red-first-letter">User Flow</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh
+                        finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet
+                        augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis libero,
+                        vitae commodo nunc quam et ligula.</p>
+                </div>
+               
+                <img src="images/how-we-work/how-img-2.png" alt="Split Development">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{> ../common/footer }}
+<!-- icons -->
+{{> ../partials/icons }}
+<!-- /icons -->
+</body>
+</html>

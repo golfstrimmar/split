@@ -1,0 +1,45 @@
+{
+  "page_title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home Page",
+      "description": "Done",
+      "url": "/index.html"
+    },
+    {
+      "title": "Portfolio",
+      "description": "Desktop",
+      "url": "/portfolio.html"
+    },
+    {
+      "title": "Portfolio Item",
+      "description": "Desktop",
+      "url": "/portfolio-item.html"
+    },
+    {
+      "title": "What We Do",
+      "description": "Done",
+      "url": "/what-we-do.html"
+    },
+    {
+      "title": "About Us",
+      "description": "In Progress",
+      "url": "/about.html"
+    },
+    {
+      "title": "How We Work",
+      "description": "",
+      "url": "/how-we-work.html"
+    },
+    {
+      "title": "Team",
+      "description": "Done",
+      "url": "/team.html"
+    },
+    {
+      "title": "Contact Us",
+      "description": "",
+      "url": "/contact.html"
+    }
+  ]
+}

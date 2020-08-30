@@ -1,0 +1,298 @@
+<html lang="en">
+
+<head>
+  {{> ../common/head }}
+</head>
+
+<body class="index">
+  {{> ../common/header }}
+  {{#each banner}}
+  <!-- home-banner -->
+  <div class="home-banner close-menu position-relative overflow-hidden w-100">
+    <!-- home-banner__video -->
+    <video class="home-banner__video"
+      data-poster="https://mk0trueagencygt2rhoj.kinstacdn.com/wp-content/uploads/2018/08/digital-agency-melbourne-true.jpg"
+      autoplay="" loop="" muted="">
+      <source src="{{ background_video }}" type="video/mp4">
+    </video>
+    <!-- /home-banner__video -->
+
+    <div class="container position-relative">
+      <!-- top-hero -->
+      <div class="top-hero d-flex align-items-center">
+        <h1>{{ title }} <br><span class="red-span" id="typed"
+            data-typed-text="design, frontend, web development"></span>
+        </h1>
+      </div>
+      <!-- /top-hero -->
+
+      <!-- social -->
+      <ul class="social list d-flex align-items-center justify-content-between justify-content-md-end">
+        {{#each social}}
+        <li>
+          <a href="{{ link }}" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#{{ icon }}"></use>  
+            </svg>
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+      <!-- /social -->
+    </div>
+       
+  </div>
+  <!-- /home-banner -->
+  {{/each}}
+   
+
+    
+ <!-- home -->
+ <!-- home -->
+ <!-- home -->
+  <div class="home margin-footer">  
+       
+   
+ {{!-- portfolio --}}  
+    {{#each home-portfolio}}
+
+    <section class="home__portfolio">
+    <div class="scrolling__container">
+        <div class="scrolling">
+            <p class="scrolling__text" id="portfolio">
+              Portfolio
+            </p>
+            <p class="scrolling__text" id="design">   
+              Disigne
+            </p>
+            <p class="scrolling__text" id="frontend">   
+              Frontend
+            </p>
+            <p class="scrolling__text" id="backend">   
+              Backend
+            </p>
+       
+        </div> 
+    </div>
+
+        <div class="container position-relative left-position-text__container">
+         
+          <div class="left-position-text">
+             <span  class="left-position-text-span">Projects</span>
+          </div>
+
+
+          <div class="head-section w-100 d-md-flex align-items-md-center  justify-content-between">
+          <div class="head-section__item">
+            <p class="head-section__text">{{ head_text }}</p>
+          </div>
+          {{!-- ------------------------- --}}
+          <div class="head-section__item">
+            <a href="{{ link }}" class="btn head-section__btn btn__white btn__hover-red btn-6">
+              <span></span>
+              {{ link_name }}
+            </a>
+          </div>
+        {{!-- ----------------------- --}}
+          </div>
+  
+  
+  
+          <div class="portfolio d-flex flex-column">
+          <div
+            class="portfolio__bit w-100 position-relative d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-md-between">
+            {{#each left-column}}
+            <a href="{{link}}" class="portfolio__tile" data-bg-col="{{bg-color}}" data-bg-center="{{circle-color}}"
+              style="background-color: {{bg-color}}">
+              <img src="{{image}}" alt="{{alt}}">
+            </a>
+            {{/each}}
+          </div>
+          <div
+            class="portfolio__bit w-100 position-relative d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-md-between">
+            {{#each right-column}}
+            <a href="{{link}}" class="portfolio__tile" data-bg-col="{{bg-color}}" data-bg-center="{{circle-color}}"
+              style="background-color: {{bg-color}}">
+              <img src="{{image}}" alt="{{alt}}">
+            </a>
+            {{/each}}
+          </div>
+          </div>
+     
+      </div>
+ 
+
+    </section>
+    {{/each}}
+{{!-- /portfolio --}}
+
+{{!-- use --}}
+    {{#each use}}
+    <section class="home__use">
+
+      <div class="container position-relative left-position-text__container">
+       
+       
+        <div class="left-position-text">
+          <span>What we use</span>
+        </div>
+
+ 
+
+        <div class="head-section w-100 d-md-flex align-items-md-center justify-content-between">
+          <div class="head-section__item">
+            <p class="head-section__text">{{ head_text }}</p>
+          </div>
+
+          <div class="head-section__item">
+
+        {{!-- кнопка all sccifies --}}
+            <a href="{{ link }}" class="btn head-section__btn btn__white btn__hover-red btn-6">{{ link_name }}
+              <span></span>
+            </a>
+        {{!--/ кнопка all sccifies --}}
+
+          </div>
+
+        </div>
+ 
+
+        <div class="home__use__container">
+          <div class="row">
+            {{#each specifies}}
+            <div class="col-md-4">
+              <a href="{{ link }}" class="home__use__specifies {{ class }}">
+                <span class="home__use__specifies__icons">
+                  {{#each instruments}}
+                  <span class="icon {{ class }} d-flex align-items-center justify-content-center">
+                    <img src="{{ image }}" alt="{{ class }}">
+                  </span>
+                  {{/each}}
+                </span>
+                <span class="title">{{ title }}</span>
+              </a>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    {{/each}}
+{{!-- /use --}}
+
+{{!-- about --}}
+    {{#each about}}
+    <section class="home__about">
+   
+       <div class="scrolling__container">
+          <div class="scrolling">
+            <p class="scrolling__text" id="about">
+             About us
+           </p>
+         </div>
+       </div>
+
+      <div class="container position-relative left-position-text__container">
+        <div class="left-position-text white">
+          <span>About us</span>
+        </div>
+
+        <div class="head-section w-100 d-md-flex align-items-md-center justify-content-end">
+        {{!-- кнопка know more --}}
+          <div class="head-section__item">
+            <a href="{{ link }}" class="btn head-section__btn btn__black btn__hover-white btn-6">{{ link_name }}
+            <span></span>
+            </a>
+          </div>
+      {{!--/ кнопка know more --}}
+        </div>
+
+        <div class="about d-flex flex-column flex-md-row align-items-center">
+          <div class="about__awards position-relative d-flex flex-wrap justify-content-center">
+            <a href="{{ clutch }}" class="about__award" target="_blank">
+              <img src="{{ image1-2x }}" alt="award">
+            </a>
+            <a href="#" class="about__award about__award--empty" target="_blank">
+              <img src="{{ image3 }}" alt="award">
+            </a>
+            <a href="{{ upwork }}" class="about__award" target="_blank">
+              <img src="{{ image2-2x }}" alt="award">
+            </a>
+            <a href="#" class="about__award about__award--empty" target="_blank">
+              <img src="{{ image3 }}" alt="award">
+            </a>
+            <a href="#" class="about__award about__award--empty" target="_blank">
+              <img src="{{ image3 }}" alt="award">
+            </a>
+          </div>
+          <div class="about__desc">
+            {{#each text}}
+            <p>{{ p }}</p>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </section>
+    {{/each}}
+{{!-- /about --}}
+
+{{!-- instagram --}}
+    {{#each instagram}}
+    <section class="home__instagram"> 
+      <div class="container position-relative">
+        {{!-- <div class="row no-gutters"> --}}
+        <div class="head-section w-100 d-md-flex align-items-md-center justify-content-between">
+        
+          <div class="head-section__item">
+            <a href="{{ insta_link }}" class="insta-link d-flex align-items-center">
+              <figure class="insta-link__img position-relative">
+                <img src="{{ insta_logo }}" alt="">
+              </figure>
+              <p class="head-section__text">{{ insta_name }}</p>
+            </a>
+          </div>
+         
+         {{!-- кнопка see instagramm --}}
+          <div class="head-section__item">
+            <a href="{{ insta_link }}" class="btn head-section__btn btn__black btn__hover-white btn-6">{{ button_name }}
+              <span></span>
+            </a>
+          </div>
+        {{!--/ кнопка see instagramm --}}
+
+        </div>  
+
+{{!-- instagram --}}
+        <div class="instagram w-100">
+          <div class="instagram__content  " id="instafeed">
+{{!-- подключение  instagramm --}}
+<div class="instagram-images row no-gutters -one " data-username="splitdev.pro" data-count="3">
+</div>
+{{!--/ подключение instagramm --}}
+          </div>
+        </div>
+{{!-- /instagram --}}
+          {{!-- </div> --}}
+      </div>
+    </section>
+    {{/each}}
+{{!-- /instagram --}}
+ 
+  </div>
+  <!-- /home -->
+  <!-- /home -->
+  <!-- /home -->
+  <!-- /home -->
+
+  <!-- footer -->
+  {{> ../common/footer }}
+  <!-- /footer -->
+
+  <!-- icons -->
+  {{> ../partials/icons }}
+  <!-- /icons -->
+</body>
+
+</html>

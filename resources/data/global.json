@@ -1,0 +1,124 @@
+{
+  "header": [
+    {
+      "menu": [
+        {
+          "active": "true",
+          "link": "index.html",
+          "link_name": "Home"
+        },
+        {
+          "link": "portfolio.html",
+          "link_name": "Portfolio"
+        },
+        {
+          "link": "about.html",
+          "link_name": "About us"
+        },
+        {
+          "link": "what-we-do.html",
+          "link_name": "What we do"
+        },
+        {
+          "link": "how-we-work.html",
+          "link_name": "Work process"
+        },
+        {
+          "link": "contact.html",
+          "link_name": "Contact us"
+        }
+      ],
+      "social": [
+        {
+          "link": "https://www.upwork.com/ag/splitdev/",
+          "icon": "upwork"
+        },
+        {
+          "link": "https://www.behance.net/splitdev",
+          "icon": "behance"
+        },
+        {
+          "link": "https://dribbble.com/splitdev",
+          "icon": "dribble"
+        },
+        {
+          "link": "https://www.facebook.com/splitdevelopment",
+          "icon": "facebook"
+        },
+        {
+          "link": "https://www.instagram.com/splitdev.pro",
+          "icon": "instagram"
+        },
+        {
+          "link": "https://www.linkedin.com/company/splitdev",
+          "icon": "linkedin"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "logo": "images/logo_footer.svg",
+      "copyright": "2019 © SPLIT Development, LLC. All rights reserved.",
+      "top-image": "images/top.svg",
+      "col1": [
+        {
+          "link": "https://www.google.com/maps/place/SPLIT+Development/@48.510913,32.2634193,15z/data=!4m5!3m4!1s0x0:0x51a08cb3fab6cf4a!8m2!3d48.510913!4d32.2634193",
+          "text": "Victor Chmilenko 47, Kropyvnytskyi, 25006"
+        },
+        {
+          "link": "tel:0977003001",
+          "text": "097 700 3001"
+        },
+        {
+          "link": "mailto:info@splitdev.pro",
+          "text": "info@splitdev.pro"
+        }
+      ],
+      "col2": [
+        {
+          "link": "portfolio.html",
+          "text": "Portfolio"
+        },
+        {
+          "link": "what_we_do.html",
+          "text": "What we do"
+        },
+        {
+          "link": "work_process.html",
+          "text": "Work process"
+        },
+        {
+          "link": "about.html",
+          "text": "About us"
+        },
+        {
+          "link": "contact.html",
+          "text": "Contact us"
+        }
+      ],
+      "col3": [
+        {
+          "link": "https://dribbble.com/splitdev",
+          "text": "Dribbble"
+        },
+        {
+          "link": "https://www.behance.net/splitdev",
+          "text": "Behance"
+        },
+        {
+          "link": "https://www.instagram.com/splitdev.pro",
+          "text": "Instagram"
+        },
+        {
+          "link": "https://www.facebook.com/splitdevelopment",
+          "text": "Facebook"
+        },
+        {
+          "link": "https://www.linkedin.com/company/splitdev",
+          "text": "LinkedIn"
+        }
+      ]
+    }
+  ]
+}

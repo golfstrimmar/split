@@ -1,0 +1,59 @@
+ <header class="header header-white opened" id="header-white">
+  <div class="container">
+    <div class="header__inner d-flex align-items-center justify-content-between">
+      {{#each header}}
+      <!-- logo -->
+    <a href="/" class="logo d-flex list flex-center">
+       <svg class="icon" width="91" height="34">
+        <use xlink:href="#logo-black"></use>
+      </svg>
+    </a>  
+      <!-- /logo -->
+      <!-- menu -->
+      <div class="menu d-flex flex-column align-items-md-end justify-content-md-end">
+        <div class="menu__head d-flex d-md-none align-items-center justify-content-between">
+          <a href="/" class="logo d-flex list flex-center">
+           <svg class="icon" width="91" height="34"> 
+              <use xlink:href="#logo-black"></use>
+            </svg> 
+          </a>
+          <a href="#" class="menu__close">
+            <svg class="icon" width="24" height="23">     
+              <use xlink:href="#close"></use> 
+            </svg>
+          </a>
+        </div>
+        <div class="menu__content">
+          <ul class="menu__list list d-flex flex-column flex-md-row align-items-md-center">
+            {{#each menu}}
+            <li class="menu__item">
+              <a href="{{ link }}" class="menu__link menu__link_black animation-letters">{{ link_name }}</a>
+            </li>
+            {{/each}}   
+          </ul>
+        </div>
+
+        <ul class="social list d-flex d-md-none align-items-center justify-content-between">
+          {{#each social}}
+          <li>
+            <a href="{{ link }}" target="_blank" class="menu__close">
+              <svg class="icon" width="50" height="50">
+                <use xlink:href="#{{ icon }}"></use>  
+              </svg>
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+
+      </div>
+      <!-- /menu -->
+
+      <!-- burger -->
+      <div class="burger-menu d-flex d-md-none position-relative">
+        <span class="burger-menu__line"></span>
+      </div>
+      <!-- /burger -->
+      {{/each}}
+    </div>
+  </div>
+</header> 

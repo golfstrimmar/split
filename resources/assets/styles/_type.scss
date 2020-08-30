@@ -1,0 +1,15 @@
+/**
+ * ============
+ * Typography
+ * ============
+ */
+h1 {
+  font-size: 100px;
+  line-height: 124px;
+  @include dm-sans-bold;
+}
+h2 {
+  font-size: 48px;
+  line-height: 28px;
+  @include dm-sans-bold;
+}

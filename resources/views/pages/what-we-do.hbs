@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+  {{> ../common/head }}
+</head>
+
+<body class="we-do">
+  {{!-- {{> ../common/header }} --}}
+{{> ../common/header-white}}
+
+<section class="we-do__hero">
+  <div class="container">
+    <div class="row no-gutters align-items-md-center ">
+      <div class=" we-do__hero__title col-12 col-md-5">
+        <h3>We make your expirience more <span id="typed"
+            data-typed-text="impossible., awesome., comfortable.">  
+            </span>
+        </h3>
+      </div>
+      <div class="we-do__hero__description col-12 col-md-6 offset-md-1">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.
+          Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.   
+        </p>
+      </div>
+      <div class="col-12 we-do__hero__img"> 
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="capabilities__section">
+    <div class="container position-relative left-position-text__container">
+      <div class="left-position-text">
+        <span>Our capabilities</span>
+      </div>
+      <div class="row capabilities__head">
+        <div class="col-xl-12">
+          <p>We help brands communicate to their audience through creative design, clever strategy and technology.</p>
+        </div>
+      </div>
+      <div class="capabilities__content d-flex flex-wrap justify-content-center">
+        {{#each capabilities}}
+        {{> ../partials/capability-tile}}
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+
+  <section class="our-way__section margin-footer">
+    <div class="container position-relative left-position-text__container">
+      <div class="left-position-text">
+        <span>Our way in work</span>
+      </div>
+      <div class="row capabilities__head">
+        <div class="col-xl-12">
+          <p>We help brands communicate to their audience through creative design, clever strategy and technology.</p>
+        </div>
+      </div>
+      <div class="our-way__content d-flex row no-gutters">
+        {{#each our-way}}
+        {{> ../partials/our-way-tile}}
+        {{/each}}
+      </div>
+    </div>
+ <div class="decor-way"></div>
+  </section>
+
+  
+  {{> ../common/footer }}
+    <!-- icons -->
+    {{> ../partials/icons }}
+    <!-- /icons -->
+</body>
+
+</html>

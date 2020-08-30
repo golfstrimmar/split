@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="contact">
+{{!-- {{> ../common/header }} --}}
+{{> ../common/header-white}}
+
+  <section class="connect" style="background-image: url('images/contact/background-map.png')">
+      <div class="connect__background">
+          <div class="container">
+              <div class="connect__wrapper">
+                  <div class="row">
+                      <div class="col-md-5">
+                          <div class="connect__right">
+                              <h1 class="red-first-letter">How do we can help you?</h1>
+                              <p>
+                                  <span class="red-span">Protips</span> - how be more productive:
+                              </p>
+                              <ul>
+                                  <li>Your idea</li>
+                                  <li>Your timeline</li>
+                                  <li>Your budget</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-md-7">
+                          <form class="connect__form">
+                              <div class="connect__form-item">
+                                  <input id="name" type="text" required=" " placeholder="Denzel Washington">
+                                  <label for="name" class="red-first-letter">What is your name?</label>
+                              </div>
+                              <div class="connect__form-item">
+                                  <input id="email" type="email" required=" " placeholder="thebestmail@mail.com">
+                                  <label for="email" class="red-first-letter">What is your email?</label>
+                              </div>
+                              <div class="connect__form-item">
+                                  <textarea id="message" type="text" required=" " placeholder="Your awesome message" cols="40" rows="6"></textarea>
+                                  <label for="name" class="red-first-letter">Write your message</label>
+                              </div>
+                              <div class="connect__form-item connect__file-add">
+                                  <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="customFile">
+                                      <label class="name__text red-first-letter" for="customFile">Add attachment</label>
+                                      <span class="custom-file__lb"></span>
+                                  </div>
+                              </div>
+                              <div class="form__submit-button">
+                                  <button type="submit" id="submit-button" class="btn btn__red btn__hover-grey btn-6">
+                                      <span></span>
+                                      Send message
+                                  </button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+<!-- icons -->
+{{> ../partials/icons }}
+<!-- /icons -->
+</body>
+</html>

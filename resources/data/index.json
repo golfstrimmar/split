@@ -1,0 +1,215 @@
+{
+  "page-title": "SPLIT Development",
+  "banner": [
+    {
+      "title": "We are progressive company that specialized on",
+      "background_video": "images/home-video/split21-02-20.mov",
+      "social": [
+        {
+          "link": "https://www.upwork.com/ag/splitdev/",
+          "icon": "upwork"
+        },
+        {
+          "link": "https://www.behance.net/splitdev",
+          "icon": "behance"
+        },
+        {
+          "link": "https://dribbble.com/splitdev",
+          "icon": "dribble"
+        },
+        {
+          "link": "https://www.facebook.com/splitdevelopment",
+          "icon": "facebook"
+        },
+        {
+          "link": "https://www.instagram.com/splitdev.pro",
+          "icon": "instagram"
+        },
+        {
+          "link": "https://www.linkedin.com/company/splitdev",
+          "icon": "linkedin"
+        }
+      ]
+    }
+  ],
+  "home-portfolio": [
+    {
+      "head_text": "Here are some of our projects, check it out:",
+      "link": "portfolio.html",
+      "link_name": "All works",
+      "left-column": [
+        {
+          "link": "#",
+          "bg-color": "#f5f5f5",
+          "circle-color": "#e6b8b4",
+          "image": "images/home-portfolio/home-portfolio-rentorr.svg",
+          "alt": "Split Development"
+        },
+        {
+          "link": "#",
+          "bg-color": "#e7f1f5",
+          "circle-color": "#33acfd",
+          "image": "images/home-portfolio/person.png",
+          "alt": "Split Development"
+        }
+      ],
+      "right-column": [
+        {
+          "link": "#",
+          "bg-color": "#151515",
+          "circle-color": "#a6a6a6",
+          "image": "images/home-portfolio/home-portfolio-car.png",
+          "alt": "Split Development"
+        },
+        {
+          "link": "#",
+          "bg-color": "#fafafa",
+          "circle-color": "#faebb1",
+          "image": "images/home-portfolio/home-portfolio-fixit.png",
+          "alt": "Split Development"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "head_text": "Here are some of our projects, check it out:",
+      "link": "",
+      "link_name": "All works",
+      "list": [
+        {
+          "image": "images/project.png"
+        },
+        {
+          "image": "images/project.png"
+        },
+        {
+          "image": "images/project.png"
+        },
+        {
+          "image": "images/project.png"
+        }
+      ]
+    }
+  ],
+  "use": [
+    {
+      "head_text": "We use all popular instruments for design and development:",
+      "link": "",
+      "link_name": "All specifies",
+      "specifies": [
+        {
+          "class": "frontend",
+          "link": "#",
+          "title": "Frontend Development",
+          "instruments": [
+            {
+              "class": "avocode",
+              "image": "images/instruments/avocode.svg"
+            },
+            {
+              "class": "zeplin",
+              "image": "images/instruments/zeplin.svg"
+            },
+            {
+              "class": "gulp",
+              "image": "images/instruments/gulp.svg"
+            },
+            {
+              "class": "phpstorm",
+              "image": "images/instruments/phpstorm.svg"
+            },
+            {
+              "class": "webpack",
+              "image": "images/instruments/webpack.svg"
+            }
+          ]
+        },
+        {
+          "class": "design",
+          "link": "#",
+          "title": "UI/UX Design",
+          "instruments": [
+            {
+              "class": "figma",
+              "image": "images/instruments/figma.svg"
+            },
+            {
+              "class": "invision",
+              "image": "images/instruments/invision.svg"
+            },
+            {
+              "class": "p",
+              "image": "images/instruments/p.svg"
+            },
+            {
+              "class": "photoshop",
+              "image": "images/instruments/photoshop.svg"
+            },
+            {
+              "class": "sketch",
+              "image": "images/instruments/sketch.svg"
+            }
+          ]
+        },
+        {
+          "class": "backend",
+          "link": "#",
+          "title": "Backend Development",
+          "instruments": [
+            {
+              "class": "git",
+              "image": "images/instruments/git.svg"
+            },
+            {
+              "class": "mysql",
+              "image": "images/instruments/mysql.svg"
+            },
+            {
+              "class": "wp",
+              "image": "images/instruments/wp.svg"
+            },
+            {
+              "class": "phpstorm",
+              "image": "images/instruments/phpstorm.svg"
+            },
+            {
+              "class": "php",
+              "image": "images/instruments/php.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "link": "portfolio.html",
+      "link_name": "Know more",
+      "text": [
+        {
+          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie."
+        },
+        {
+          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie."
+        }
+      ],
+      "upwork": "https://www.upwork.com/agencies/~010ba045c8f4dc7341",
+      "clutch": "https://clutch.co/profile/split-development",
+      "image1": "images/clutch.png",
+      "image2": "images/upwork.png",
+      "image3": "images/polygon.png",
+      "image1-2x": "images/clutch-2x.png",
+      "image2-2x": "images/upwork-2x.png",
+      "image3-2x": "images/polygon-2x.png"
+    }
+  ],
+  "instagram": [
+    {
+      "insta_name": "Our Instagram Profile",
+      "insta_logo": "images/insta_logo.svg",
+      "insta_link": "https://www.instagram.com/splitdev.pro/",
+      "button_name": "See Instagram"
+    }
+  ]
+}

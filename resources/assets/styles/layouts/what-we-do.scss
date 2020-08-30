@@ -1,0 +1,116 @@
+.we-do {
+  .left-position-text {
+    span {
+      @include media-breakpoint-down(sm) {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &__hero {
+    background-color: $gray-ultra-light;
+    padding: 176px 0 0 0;
+    @include media-breakpoint-down(md) {
+      padding-top: 150px;
+      padding-bottom: 59px;
+    }
+    @include media-breakpoint-down(xs) {
+      padding: 120px 0 17px 0;
+    }
+    h3 {
+      color: $body-text;
+      @include dm-sans-medium;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 52px;
+      @include media-breakpoint-down(lg) {
+        min-height: 200px;
+      }
+      @include media-breakpoint-down(sm) {
+        line-height: 52px;
+      }
+    }
+    p {
+      color: $body-text;
+      line-height: 26px;
+      font-size: 18px;
+    }
+    span {
+      color: #fd3034;
+    }
+    &__img {
+      margin: 37px 0 0 0;
+      background-image: url(images/what-we-do/we-do-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 347px;
+      @include media-breakpoint-down(md) {
+        margin-top: 74px;
+        margin-bottom: 30px;
+      }
+      @include media-breakpoint-down(sm) {
+        width: 326px;
+        height: 148px;
+        margin: 0;
+      }
+    }
+  }
+}
+.capabilities {
+  &__section {
+    padding: 91px 0 90px;
+    background-color: #fff;
+    @include media-breakpoint-down(md) {
+      padding-bottom: 64px;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-top: 35px;
+    }
+  }
+  &__head {
+    @include media-breakpoint-down(lg) {
+      padding: 0 0 0 40px;
+    }
+    @include media-breakpoint-down(md) {
+      padding: 0;
+    }
+    p {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 83px;
+      @include media-breakpoint-down(sm) {
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  &__content {
+    padding: 28px 0 0 0;
+    .capability-tile {
+      margin-bottom: 60px;
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 20px;
+      }
+      @include media-breakpoint-down(md) {
+        margin-bottom: 10px;
+      }
+      @include media-breakpoint-down(md) {
+        margin-bottom: 24px;
+      }
+      &:nth-child(odd) {
+        margin-right: 40px;
+        @include media-breakpoint-down(lg) {
+          margin-right: 20px;
+        }
+        @include media-breakpoint-down(md) {
+          margin-right: 10px;
+        }
+        @include media-breakpoint-down(sm) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

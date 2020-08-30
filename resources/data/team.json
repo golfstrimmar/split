@@ -1,0 +1,66 @@
+{
+  "skills": [
+    {
+      "skill": "HTML5"
+    },
+    {
+      "skill": "CSS3"
+    },
+    {
+      "skill": "jQuery"
+    },
+    {
+      "skill": "PHP"
+    },
+    {
+      "skill": "SASS"
+    },
+    {
+      "skill": "LESS"
+    },
+    {
+      "skill": "PSD to HTML"
+    },
+    {
+      "skill": "PSD to Wordpress"
+    },
+    {
+      "skill": "PSD to Bootstrap"
+    },
+    {
+      "skill": "Gulp JS"
+    },
+    {
+      "skill": "Responsive"
+    },
+    {
+      "skill": "Adaptive"
+    },
+    {
+      "skill": "Bootstrap 3"
+    },
+    {
+      "skill": "Bootstrap 4"
+    },
+    {
+      "skill": "FontAwesome"
+    }
+  ],
+  "block": [
+    {
+      "header": "Desktop Applications",
+      "text": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "color-ball": "red-ball"
+    },
+    {
+      "header": "Web Development",
+      "text": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "color-ball": "blue-ball"
+    },
+    {
+      "header": "Responsive",
+      "text": "Visual Identity, Marketing Materials, Collateral, Brand Assets, Brand Guidelines",
+      "color-ball": "orange-ball"
+    }
+  ]
+}

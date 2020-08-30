@@ -1,0 +1,18 @@
+/**
+ * Ensure all buttons have pointer cursor to signify 'clickable'
+ */
+button {
+  cursor: pointer;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

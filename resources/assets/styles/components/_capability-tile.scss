@@ -1,0 +1,97 @@
+.capability-tile {
+  padding: 31px 40px 49px;
+  max-width: 453px;
+  transition: 0.2s;
+  @include media-breakpoint-down(lg) {
+    max-width: 412px;
+  }
+  @include media-breakpoint-down(md) {
+    max-width: 340px;
+    padding: 23px 23px 25px;
+  }
+  @include media-breakpoint-down(sm) {
+    padding: 23px 0 25px;
+  }
+
+  &__title {
+    padding: 0 0 0 52px;
+    position: relative;
+    .color-1 {
+      background-color: #00e1e0;
+    }
+    .color-2 {
+      background-color: #fa333d;
+    }
+    .color-3 {
+      background-color: #32c5ff;
+    }
+    .color-4 {
+      background-color: #f7b500;
+    }
+    .color-5 {
+      background-color: #4bcf73;
+    }
+    .color-6 {
+      background-color: #8835e7;
+    }
+    .capability-tile__marker {
+      margin-right: 16px;
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      transform: translate(0%, -50%);
+    }
+    h5 {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 31px;
+      color: #0d0d0d;
+      margin: 0;
+      @include media-breakpoint-down(sm) {
+        margin: 0;
+      }
+    }
+  }
+  &__description {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #404040;
+    margin: 24px 0 37px;
+    @include media-breakpoint-down(sm) {
+      font-size: 16px;
+      line-height: 31px;
+    }
+  }
+  &__projects {
+    p {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      color: #c2c1c1;
+      margin-bottom: 18px;
+    }
+    a {
+      color: #0d0d0d;
+      font-size: 18px;
+      font-weight: 500;
+      transition: 0.3s;
+      &:hover {
+        color: #fa333c;
+        text-decoration: underline;
+      }
+    }
+  }
+  &:hover {
+    border-color: rgba(224, 32, 32, 0.72);
+  }
+}

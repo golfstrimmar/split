@@ -1,0 +1,384 @@
+.team {
+  background-color: #fff;
+}
+
+.team-member {
+  padding-top: 125px;
+  background-color: #f1f1f1;
+  .left-position-text {
+    span {
+      color: #0d0d0d;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 0;
+        // padding-bottom: 65px;
+      }
+      @include media-breakpoint-down(sm) {
+        padding-bottom: 45px;
+      }
+    }
+  }
+}
+.team-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+  }
+  .portret {
+    @include media-breakpoint-only(xl) {
+      display: flex;
+      justify-content: center;
+    }
+    @include media-breakpoint-down(md) {
+      max-height: fit-content;
+      margin: auto auto 20px;
+    }
+  }
+  &__left {
+    width: 262px;
+    height: 334px;
+    background: url(images/viktor-svistunov-avatar.jpg) no-repeat;
+    background-size: cover;
+    @include media-breakpoint-only(md) {
+      margin: 0 auto 20px;
+    }
+    @include media-breakpoint-down(md) {
+      width: 327px;
+      height: 417px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  &__right {
+    width: 100%;
+    h5 {
+      color: rgba(0, 0, 0, 0.48);
+      font-family: "DM Sans - Medium", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  }
+  &__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 35px 32px 27px 32px;
+    background-color: rgba(255, 255, 255, 0.48);
+    h2 {
+      margin-bottom: 21px;
+    }
+    span {
+      margin-bottom: 0;
+    }
+    @include media-breakpoint-down(lg) {
+      padding: 35px 25px 27px 20px;
+    }
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2 {
+      color: #0d0d0d;
+      font-family: "DM Sans - Medium", sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      @include media-breakpoint-up(lg) {
+        line-height: 1.2;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      margin: auto;
+      padding-bottom: 15px;
+    }
+  }
+  &__duo-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include media-breakpoint-only(lg) {
+      flex-direction: column;
+    }
+    .btn {
+      margin-right: 25px;
+      width: 170px;
+      height: 48px;
+      @include flex-center;
+      @include media-breakpoint-only(lg) {
+        margin: 0 10px 20px 10px;
+      }
+      @include media-breakpoint-down(md) {
+        width: 155px;
+        height: 48px;
+        margin: 0 10px 20px 10px;
+      }
+    }
+    @include media-breakpoint-down(lg) {
+      padding-left: 10px;
+    }
+    @media (max-width: 576px) {
+      flex-direction: column;
+      padding-left: 0;
+    }
+  }
+  &__skills {
+    background-color: rgba(255, 255, 255, 0.48);
+    padding: 24px 32px 14px 32px;
+    margin-top: 20px;
+    h5 {
+      margin-bottom: 25px;
+    }
+  }
+  .\.hidden-sm {
+    @include media-breakpoint-down(sm) {
+      //display: none;
+    }
+  }
+}
+
+.skills {
+  display: inline-flex;
+  flex-direction: row;
+  word-wrap: break-spaces;
+  overflow: hidden;
+  flex-wrap: wrap;
+  &__content {
+    height: 32px;
+    @include flex-center;
+    padding: 7px 16px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    margin: 0 16px 16px 0;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 1;
+    p {
+      color: #0d0d0d;
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &:hover {
+      background-color: red;
+      p {
+        color: #ffff;
+      }
+    }
+  }
+}
+.expierence {
+  margin-top: 40px;
+  @include media-breakpoint-down(sm) {
+    margin-top: 0;
+  }
+  .\.hidden-sm {
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+  .padding-none {
+    @include media-breakpoint-down(xs) {
+      padding: 0;
+    }
+  }
+  .polygon-chart {
+    display: block;
+    width: 586px;
+    height: 530px;
+    @include flex-center;
+    @include media-breakpoint-down(xs) {
+      width: 327px;
+      height: 296px;
+      margin: 25px 0 0 0;
+    }
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+  text {
+    font-size: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .team-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 24px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+    &__block {
+      padding: 30px 61px 49px 40px;
+      background-color: rgba(255, 255, 255, 0.48);
+      margin-bottom: 32px;
+      &:last-child {
+        margin-bottom: 152px;
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 32px;
+        }
+      }
+      @include media-breakpoint-down(xs) {
+        margin-bottom: 24px;
+        padding: 40px 24px 49px 24px;
+      }
+      &--header {
+        display: flex;
+        align-items: center;
+        .red-ball {
+          background-color: red;
+        }
+        .blue-ball {
+          background-color: #32c5ff;
+        }
+        .orange-ball {
+          background-color: #f7b500;
+        }
+      }
+      h3 {
+        display: inline-block;
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        color: #0d0d0d;
+      }
+      &--ball {
+        width: 34px !important;
+        height: 34px !important;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        margin-right: 16px;
+      }
+      p {
+        color: #0d0d0d;
+        @include dm-sans-reg;
+        font-size: 18px;
+      }
+      span {
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgba(13, 0, 1, 0.478557);
+      }
+      &--text {
+        margin-top: 30px;
+        margin-bottom: 45px;
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #404040;
+      }
+      &--links {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        a {
+          color: #0d0d0d;
+          margin-right: 5px;
+          transition: 0.2s;
+          font-family: "DM Sans", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          &:hover {
+            color: #fa333c;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+.team-page {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__headers {
+    display: flex;
+    h2 {
+      font-size: 36px;
+      font-family: "DM Sans", sans-serif;
+      &:first-child {
+        margin-right: 10px;
+      }
+      &::first-letter {
+        color: #fa333c;
+      }
+    }
+  }
+  &__desk {
+    opacity: 0.72;
+    color: #0d0d0d;
+    font-size: 18px;
+    @include dm-sans-reg;
+  }
+  &__duo-links {
+    display: flex;
+    max-width: 358px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 43px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+    &--btn {
+      color: #fa333c;
+      @include dm-sans-bold;
+      letter-spacing: 1px;
+      max-width: 171px;
+      width: 100%;
+      height: 48px;
+      border: 1px solid #fa333c;
+      @include flex-center;
+      transition: 0.2s;
+      @include dm-sans-bold;
+      @media (max-width: 767px) {
+        max-width: 328px;
+      }
+      // &:hover {
+      //   background-color: #fa333c;
+      //   color: #fff;
+      // }
+      &:last-child {
+        color: #fff;
+        background-color: #fa333c;
+        @media (max-width: 767px) {
+          margin-top: 25px;
+        }
+        // &:hover {
+        //   color: #fa333c;
+        //   background-color: transparent;
+        // }
+      }
+    }
+  }
+}

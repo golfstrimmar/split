@@ -1,0 +1,212 @@
+.contact {
+  .header-white {
+    background-color: transparent;
+  }
+}
+.connect {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  overflow: hidden;
+  &__background {
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 160px;
+    padding-bottom: 135px;
+    @include media-breakpoint-down(md) {
+      padding-bottom: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-top: 90px;
+    }
+  }
+  h1 {
+    color: #0d0d0d;
+    font-size: 36px;
+    line-height: 52px;
+    max-width: 277px;
+    @include dm-sans-medium;
+    @include media-breakpoint-down(sm) {
+      line-height: 40px;
+    }
+  }
+  p {
+    margin-bottom: 0;
+    margin-top: 30px;
+    color: #0d0d0d;
+    font-size: 19px;
+    line-height: 34px;
+    @include dm-sans-reg;
+  }
+  span {
+    color: #fa333c;
+    @include dm-sans-medium;
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+    outline: none;
+    margin-top: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #0d0d0d;
+    font-size: 19px;
+    @include dm-sans-reg;
+    &:nth-child(1) {
+      &:before {
+        content: url("images/contact/list-1.svg");
+        margin-right: 10px;
+      }
+    }
+    &:nth-child(2) {
+      &:before {
+        content: url("images/contact/list-2.svg");
+        margin-right: 10px;
+      }
+    }
+    &:nth-child(3) {
+      &:before {
+        content: url("images/contact/list-3.svg");
+        margin-right: 10px;
+      }
+    }
+  }
+  &__right {
+    @include media-breakpoint-down(md) {
+      padding-bottom: 160px;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 80px;
+    }
+  }
+  &__form {
+    background-color: white;
+    box-shadow: 0 0 50px 50px rgba(255, 255, 255, 0.83);
+    @include media-breakpoint-down(md) {
+      padding-bottom: 100px;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 40px;
+    }
+  }
+  &__form-item {
+    position: relative;
+    margin-bottom: 52px;
+    label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.3s;
+      transform: translateY(0);
+      pointer-events: none;
+      color: #0d0d0d;
+      width: 100%;
+      font-size: 19px;
+      @include dm-sans-medium;
+    }
+    input,
+    textarea {
+      width: 100%;
+      outline: none;
+      border: 1px solid transparent;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: 100% 5px;
+      border-bottom: 1px solid #d8d8d8;
+      padding-bottom: 17px;
+      resize: none;
+      &:focus,
+      &:not(:placeholder-shown),
+      &:-webkit-autofill {
+        & + label {
+          transform: translateY(-34px);
+        }
+      }
+      &::-webkit-input-placeholder {
+        color: transparent;
+      }
+      &::-moz-placeholder {
+        color: transparent;
+      }
+      &:-ms-input-placeholder {
+        color: transparent;
+      }
+      &:-moz-placeholder {
+        color: transparent;
+      }
+      &:not(:placeholder-shown) {
+        &:invalid {
+          color: #fa333c;
+          border-bottom: 1px solid #fa333c;
+          background-image: url("images/contact/warning.svg");
+        }
+      }
+    }
+  }
+  &__file-add {
+    margin-top: 92px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d8d8d8;
+    cursor: pointer;
+  }
+  &__submit-button {
+    button {
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+    }
+  }
+}
+.btn,
+.btn__inner {
+  @media (max-width: 450px) {
+    width: 100%;
+  }
+}
+.custom-file {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+  }
+  label {
+    transform: translateY(0) !important;
+    font-family: "DM Sans - Medium", sans-serif;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  &__lb {
+    display: inline-block;
+    width: 100%;
+    height: 24px;
+    border: none;
+    position: relative;
+    margin: 0;
+    &.close {
+      width: 24px;
+      &:before {
+        transform: rotate(405deg);
+      }
+    }
+    &:before {
+      display: flex;
+      position: absolute;
+      content: url("images/contact/add-file.svg");
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      transition: 0.3s;
+    }
+  }
+}

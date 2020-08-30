@@ -1,0 +1,19 @@
+<div class="our-way">
+  <div class="our-way__avatar">
+    <img src="{{src}}" alt="#">
+  </div>
+  <div class="our-way__title red-first-letter text-center">
+    <h5>{{title}}</h5>
+  </div>
+  <div class="our-way__description">
+    <p>{{description}}</p>
+  </div>
+  <div class="our-way__process">
+    <h6>Process:</h6>
+    <div class="our-way__process__list">
+      {{#each process}}
+        <span class="our-way__label">{{label}}</span>
+      {{/each}}
+    </div>
+  </div>
+</div>

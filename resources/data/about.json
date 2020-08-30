@@ -1,0 +1,204 @@
+{
+  "page-title": "About Us",
+  "social": [
+    {
+      "link": "https://www.upwork.com/ag/splitdev/",
+      "icon": "behance"
+    },
+    {
+      "link": "https://www.behance.net/splitdev",
+      "icon": "behance"
+    },
+    {
+      "link": "https://dribbble.com/splitdev",
+      "icon": "behance"
+    },
+    {
+      "link": "https://www.facebook.com/splitdevelopment",
+      "icon": "facebook"
+    },
+    {
+      "link": "https://www.instagram.com/splitdev.pro",
+      "icon": "instagram"
+    },
+    {
+      "link": "https://www.linkedin.com/company/splitdev",
+      "icon": "linkedin"
+    }
+  ],
+  "numbers": [
+    {
+      "img": "images/about/tie.svg",
+      "number": " ",
+      "count": "134",
+      "dcr": "Works witn happy customers"
+    },
+    {
+      "img": "images/about/team.svg",
+      "number": " ",
+      "count": "37",
+      "dcr": "Regular clients"
+    },
+    {
+      "img": "images/about/maps-and-flags.svg",
+      "count": "96",
+      "number": "%",
+      "dcr": "UpWork Job Success"
+    },
+    {
+      "img": "images/about/trophy.svg",
+      "count": "5",
+      "number": ".0",
+      "dcr": "Clutch Stars Score"
+    },
+    {
+      "img": "images/about/smartwatch.svg",
+      "number": " ",
+      "count": "2417",
+      "dcr": "Hours of work"
+    },
+    {
+      "img": "images/about/food-and-restaurant.svg",
+      "number": " ",
+      "count": "4506",
+      "dcr": "Cups of coffee drunk"
+    }
+  ],
+  "item": [
+    {
+      "href": "team.html",
+      "img": "images/about/i-1.png",
+      "name-1": "Dmitry",
+      "name-2": "K",
+      "name-3": "arpov",
+      "dcr": "Founder",
+      "id": "Karpov"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-2.png",
+      "name-1": "Ivan",
+      "name-2": "T",
+      "name-3": "rigub",
+      "dcr": "Co-founder & CEO",
+      "id": "Trigub"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-3.png",
+      "name-1": "Nikita",
+      "name-2": "R",
+      "name-3": "udas",
+      "dcr": "Project Manager",
+      "id": "Rudas"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-4.png",
+      "name-1": "Nadia",
+      "name-2": "P",
+      "name-3": "ozniakova",
+      "dcr": "Sales Manager",
+      "id": "Pozniakova"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-5.png",
+      "name-1": "Viktor",
+      "name-2": "S",
+      "name-3": "vystunov",
+      "dcr": "UX/UI Designer",
+      "id": "Svystunov"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-6.png",
+      "name-1": "Anastasia",
+      "name-2": "P",
+      "name-3": "azenko",
+      "dcr": "UX/UI Designer",
+      "id": "Pazenko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-7.png",
+      "name-1": "Artem",
+      "name-2": "S",
+      "name-3": "amusenko",
+      "dcr": "Frontend Teamlead",
+      "id": "Samusenko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-8.png",
+      "name-1": "Vlad",
+      "name-2": "K",
+      "name-3": "ravchenko",
+      "dcr": "Frontend Developer",
+      "id": "Kravchenko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-9.png",
+      "name-1": "Oleg",
+      "name-2": "P",
+      "name-3": "lichko",
+      "dcr": "Frontend Developer",
+      "id": "Plichko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-10.png",
+      "name-1": "Ruslan",
+      "name-2": "P",
+      "name-3": "azenko",
+      "dcr": "Frontend Developer",
+      "id": "RPazenko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-11.png",
+      "name-1": "Kirill",
+      "name-2": "L",
+      "name-3": "ozitskiy",
+      "dcr": "Frontend Developer",
+      "id": "Lozitskiy"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-16.png",
+      "name-1": "Daryna",
+      "name-2": "B",
+      "name-3": "ogunenko",
+      "dcr": "Frontend Developer",
+      "id": "Bogunenko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-15.png",
+      "name-1": "Ivan",
+      "name-2": "P",
+      "name-3": "azenko",
+      "dcr": "Backend Developer",
+      "id": "IPazenko"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-13.png",
+      "name-1": "Eugenу",
+      "name-2": "B",
+      "name-3": "elookiy",
+      "dcr": "Backend Developer",
+      "id": "Belookiy"
+    },
+    {
+      "href": "team.html",
+      "img": "images/about/i-14.png",
+      "name-1": "Bogdan",
+      "name-2": "I",
+      "name-3": "vanchenko",
+      "dcr": "Backend Developer",
+      "id": "Ivanchenko"
+    }
+  ]
+}

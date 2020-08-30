@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+  {{> ../common/head}}
+</head>
+<body class="portfolio-item">
+{{!-- {{> ../common/header}} --}}
+{{> ../common/header-white}} 
+  <section class="project position-relative margin-footer">
+    <div class="container">
+     <div class="flex-column row no-gutters"> 
+      <div class="project__info row no-gutters"> 
+        <h2 class="red-first-letter">Rentorr</h2>
+        {{!-- кнопки переключения версий наложены одна на другую. в активном состоянии- display: none;--}}
+        <div class="project__type-switch flex-center col-12 ">
+           
+             
+              <button  class=" btn btn__white btn-6" id="read-case-info">
+               <a href="/">Read case info</a>  
+                <span></span>
+              </button>
+            {{!-- <a id="read-case-info btn btn__white btn-6"  href="#">
+                 <span></span>
+                   Read case info
+            </a>  --}}
+         
+          <button class="active btn btn__white btn__hover-red btn-6" id="desktop">
+              Desctop version
+              <span></span>
+          </button>
+          <button class="btn btn__white btn__hover-red btn-6" id="mobile">      
+            Mobile version 
+            <span></span>   
+          </button>  
+        </div> 
+        {{!--end  кнопки переключения версий --}} 
+
+        <div class="portfolio-all__text d-flex flex-column">  
+          <div class="portfolio-all__services">
+            <h5>Services</h5>
+            <div class="portfolio-all__services-item "><img src="images/portfolio/artist.svg" alt="Design">Design
+            </div>
+            <div class="portfolio-all__services-item "><img src="images/portfolio/frontend.svg"
+                alt="Frontend">Frontend</div>
+            <div class="portfolio-all__services-item "><img src="images/portfolio/backend.svg"
+                alt="Backend">Backend</div>
+          </div>
+          <div class="portfolio-all__platforms">
+            <h5>Platforms</h5>
+            <div class="portfolio-all__platforms-item ">Desktop</div>
+            <div class="portfolio-all__platforms-item ">Mobile</div>  
+          </div>
+          <div class="portfolio-all__tags">
+            <h5>Tags</h5>
+            <div class="portfolio-all__tag ">Responsive</div>
+            <div class="portfolio-all__tag ">Dashboard</div>
+            <div class="portfolio-all__tag ">Highload</div>
+            <div class="portfolio-all__tag ">WEB-Service</div>
+            <div class="portfolio-all__tag ">Dashboard</div>
+            <div class="portfolio-all__tag ">Ecommerce</div>
+          </div> 
+          <div class="project__links">
+              <div class="project__links_wrap row no-gutters">  
+                <a href="#">
+                  <img src="images/portfolio/dribbble.svg" alt="dribbble">
+                </a>
+                <a href="#">
+                  <img src="images/portfolio/behance.svg" alt="Behance">
+                </a>
+               
+                <a href="/" class="btn btn__black btn__hover-grey btn-6 ">
+               See Live Site 
+               <span></span>
+                </a>
+               </div>
+          </div>  
+          </div>  
+          <div class="w-100"></div>
+        <a href="portfolio.html" class="back"> To portfolio</a>
+        </div>
+ 
+        {{!--desctop frame сайта  --}} 
+               <div class="project__frame mx-auto">  
+                <iframe src="https://giant.splitdev.pro/" frameborder="0"></iframe>
+              </div> 
+        {{!--end  frame сайта  --}}
+        
+        {{!-- мобилььный фрейм сайта   --}}
+              <div class="project__frame-mobile mx-auto mobile" >
+                <iframe src="https://giant.splitdev.pro/" frameborder="0"></iframe>
+              </div>  
+        {{!--end  мобилььный фрейм сайта   --}} 
+
+          <div class="sm-visible"></div>
+      </div>
+    </div>
+  </section>   
+{{> ../common/footer}}  
+  <!-- icons -->
+  {{> ../partials/icons }}
+  <!-- /icons -->
+</body>
+</html>
