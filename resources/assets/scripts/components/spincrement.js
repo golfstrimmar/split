@@ -4,7 +4,7 @@ class Spincrement {
 
   constructor () {
     this.selector = '.spincrement'
-    this.duration = 6000
+    this.duration = 8000
   }
 
   init () {
@@ -34,3 +34,4 @@ class Spincrement {
 }
 
 export default new Spincrement
+

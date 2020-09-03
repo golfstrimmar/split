@@ -20,7 +20,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.
         </p>
       </div>
-      <div class="col-12 we-do__hero__img"> 
+      <div class="col-12 we-do__hero__img">
+        <div class="ibg-js bg">
+          <img src="images/about/about-img.png"  alt="img">
+        </div> 
       </div>
     </div>
   </div>
@@ -35,35 +38,14 @@
       {{!-- счетчики   --}}
         <div class="numbers__wrapper row justify-content-center">
           
-          
-           {{#each numbers}}
+        {{#each numbers}}
             {{> ../partials/about-numbers}}
-            {{/each}}   
-        
-          {{!-- <div class="numbers__item ">
-            <div class="numbers__left">
-              <img src="" alt="The Best Designer in Our Company">
-            </div>
-            <div class="numbers__right">
-              <div class="numbers__number">
-                <p>
-                  <span data-from="0" data-to="300" data-dp="0" class="spincrement">
-                  </span>
-                  <span>3000</span>
-                </p>
-              </div>
-              <div class="numbers__descr">
-                <p>{{dcr}}</p>
-              </div>
-            </div>
-          </div> --}}
+         {{/each}} 
        
        
         </div>
       {{!-- счетчики   --}}
-       
-       
-        
+          
     </div>
 </section>
     
@@ -80,19 +62,27 @@
         <div class="our-team__wrapper row no-gutters"> 
 
        {{#each item}}
-              <div class="our-team__item_wrapper  ">  
-                   <div class="our-team__item " id="{{id}}">   
+ 
+  <div class="our-team__item_wrapper ">  
+                  
+      <div class="our-team__item " id="{{id}}">   
+                    
                      <a href="{{href}}">
                       <div class="our-team__img" style="background-image: url('{{img}}')"></div>
                       <h3>{{name-1}} <span class="red-span">{{name-2}}</span>{{name-3}}</h3>  
                       <p>{{dcr}}</p> 
                      </a>
-                   </div> 
-                  <div class="sliding-text " id="{{id}}-text">   
-                    {{dcr}} 
-                  </div>
-              </div>
-       {{/each}}
+      </div> 
+             
+              <div>
+                <div class="sliding-text scrolling__text" id="{{id}}-text">
+                      {{dcr}}
+                </div>
+              </div> 
+             
+  </div>
+     
+       {{/each}}  
       
       <div class="our-team__item_wrapper empty ">
         <div class="our-team__item " >
@@ -107,8 +97,8 @@
             {{> ../partials/our-way-tile}} 
           {{/each}} 
         </div>
-      
-      </div>
+
+      </div>{{!-- our-team__item_wrapper --}}
     </div>
 </section>  
 

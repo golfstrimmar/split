@@ -7,18 +7,336 @@ export default {
   init() {
     typed();
 
-     $(window).scroll( function () {
-      let height = document.documentElement.clientHeight;
-      let topobgj = $('.numbers__wrapper').offset().top - height;
-      console.log(height);
-      let scrol = pageYOffset;
-      if (topobgj < scrol) {
-        $('.spincrement').spincrement({
-          duration: 8000,
-          thousandSeparator: '', 
-        });
-      }
+// ---------------counters-----------------
+
+    $(document).ready(function () {
+      var show = true;
+      var countbox = '.numbers__wrapper';
+      $(window).on('scroll resize', function () {
+        if (!show) return false;
+
+        var w_top = $(window).scrollTop();
+        var e_top = $(countbox).offset().top;
+
+        var w_height = $(window).height();
+        var d_height = $(document).height();
+
+        var e_height = $(countbox).outerHeight();
+
+        if (
+          w_top + 200 >= e_top ||
+          w_height + w_top == d_height ||
+          e_height + e_top < w_height
+        ) {
+          $('.spincrement').spincrement({
+            thousandSeparator: '',
+            duration: 8000,
+          });
+
+          show = false;
+        }
+      });
     });
+
+
+// -----------смещение выезжающей должности по скролу----------------
+
+
+  {
+    let windowOffset;
+    let viewPort = window.innerHeight;
+    let Karpov = $('#Karpov-text');
+    let Trigub = $('#Trigub-text'); 
+    let Rudas = $('#Rudas-text'); 
+    let Pozniakova = $('#Pozniakova-text'); 
+    let Svystunov = $('#Svystunov-text'); 
+    let Pazenko = $('#Pazenko-text'); 
+    let Samusenko = $('#Samusenko-text'); 
+    let Kravchenko = $('#Kravchenko-text'); 
+    let Plichko = $('#Plichko-text'); 
+    let RPazenko = $('#RPazenko-text'); 
+    let Lozitskiy = $('#Lozitskiy-text'); 
+    let Bogunenko = $('#Bogunenko-text'); 
+    let IPazenko = $('#IPazenko-text'); 
+    let Belookiy = $('#Belookiy-text'); 
+    let Ivanchenko = $('#Ivanchenko-text'); 
+    let lastScrollTop2 = 0;
+    let lastScrollTop3 = 0;
+    let lastScrollTop4 = 0;
+    let lastScrollTop5 = 0;
+    let lastScrollTop6 = 0;
+    let lastScrollTop7 = 0;
+    let lastScrollTop8 = 0;
+    let lastScrollTop9 = 0;
+    let lastScrollTop10 = 0;
+    let lastScrollTop11 = 0;
+    let lastScrollTop12 = 0;
+    let lastScrollTop13 = 0;
+    let lastScrollTop14 = 0; 
+    let lastScrollTop15 = 0; 
+    let lastScrollTop16 = 0; 
+    let xKarpov = 0; 
+    let xTrigub = 0; 
+    let xRudas = 0; 
+    let xPozniakova = 0; 
+    let xSvystunov = 0; 
+    let xPazenko = 0; 
+    let xSamusenko = 0; 
+    let xKravchenko = 0; 
+    let xPlichko = 0; 
+    let xRPazenko = 0; 
+    let xLozitskiy = 0; 
+    let xBogunenko = 0; 
+    let xIPazenko = 0; 
+    let xBelookiy = 0; 
+    let xIvanchenko = 0; 
+
+
+    $(window).on('scroll', function () {
+      windowOffset = window.pageYOffset;
+     
+     
+      if (
+        windowOffset >= Karpov.offset().top - viewPort &&
+        windowOffset <= Karpov.offset().top + 200
+      ) {
+        let st2 = $(this).scrollTop();
+        if (st2 > lastScrollTop2) {
+          xKarpov -= 2;
+          Karpov.parent().css('transform', 'translateX(' + xKarpov + 'px)');
+        } else {
+          xKarpov += 2;
+          Karpov.parent().css('transform', 'translateX(' + xKarpov + 'px)');
+        }
+        lastScrollTop2 = st2;
+      }
+
+
+      if (
+        windowOffset >= Trigub.offset().top - viewPort &&
+        windowOffset <= Trigub.offset().top + 200
+      ) {
+        let st3 = $(this).scrollTop();
+        if (st3 > lastScrollTop3) {
+          xTrigub -= 2;
+          Trigub.parent().css('transform', 'translateX(' + xTrigub + 'px)');
+        } else {
+          xTrigub += 2;
+          Trigub.parent().css('transform', 'translateX(' + xTrigub + 'px)');
+        }
+        lastScrollTop3 = st3;
+      }
+     
+    
+
+
+      if (
+        windowOffset >= Rudas.offset().top - viewPort &&
+        windowOffset <= Rudas.offset().top + 200
+      ) {
+        let st4 = $(this).scrollTop();
+        if (st4 > lastScrollTop4) {
+          xRudas -= 2;
+          Rudas.parent().css('transform', 'translateX(' + xRudas + 'px)');
+        } else {
+          xRudas += 2;
+          Rudas.parent().css('transform', 'translateX(' + xRudas + 'px)');
+        }
+        lastScrollTop4 = st4;
+      }
+     
+    
+    
+    
+
+
+      if (
+        windowOffset >= Pozniakova.offset().top - viewPort &&
+        windowOffset <= Pozniakova.offset().top + 200
+      ) {
+        let st5 = $(this).scrollTop();
+        if (st5 > lastScrollTop5) {
+          xPozniakova -= 2;
+          Pozniakova.parent().css('transform', 'translateX(' + xPozniakova + 'px)');
+        } else {
+          xPozniakova += 2;
+          Pozniakova.parent().css('transform', 'translateX(' + xPozniakova + 'px)');
+        }
+        lastScrollTop5 = st5;
+      }
+      
+
+      if (
+        windowOffset >= Svystunov.offset().top - viewPort &&
+        windowOffset <= Svystunov.offset().top + 200
+      ) {
+        let st6 = $(this).scrollTop();
+        if (st6 > lastScrollTop6) {
+          xSvystunov -= 2;
+          Svystunov.parent().css('transform', 'translateX(' + xSvystunov + 'px)');
+        } else {
+          xSvystunov += 2;
+          Svystunov.parent().css('transform', 'translateX(' + xSvystunov + 'px)');
+        }
+        lastScrollTop6 = st6;
+      }
+      
+
+      if (
+        windowOffset >= Pazenko.offset().top - viewPort &&
+        windowOffset <= Pazenko.offset().top + 200
+      ) {
+        let st7 = $(this).scrollTop();
+        if (st7 > lastScrollTop7) {
+          xPazenko -= 2;
+          Pazenko.parent().css('transform', 'translateX(' + xPazenko + 'px)');
+        } else {
+          xPazenko += 2;
+          Pazenko.parent().css('transform', 'translateX(' + xPazenko + 'px)');
+        }
+        lastScrollTop7 = st7;
+      }
+
+      if (
+        windowOffset >= Samusenko.offset().top - viewPort &&
+        windowOffset <= Samusenko.offset().top + 200
+      ) {
+        let st8 = $(this).scrollTop();
+        if (st8 > lastScrollTop8) {
+          xSamusenko -= 2;
+          Samusenko.parent().css('transform', 'translateX(' + xSamusenko + 'px)');
+        } else {
+          xSamusenko += 2;
+          Samusenko.parent().css('transform', 'translateX(' + xSamusenko + 'px)');
+        }
+        lastScrollTop8 = st8;
+      }
+
+      if (
+        windowOffset >= Kravchenko.offset().top - viewPort &&
+        windowOffset <= Kravchenko.offset().top + 200
+      ) {
+        let st9 = $(this).scrollTop();
+        if (st9 > lastScrollTop9) {
+          xKravchenko -= 2;
+          Kravchenko.parent().css('transform', 'translateX(' + xKravchenko + 'px)');
+        } else {
+          xKravchenko += 2;
+          Kravchenko.parent().css('transform', 'translateX(' + xKravchenko + 'px)');
+        }
+        lastScrollTop9 = st9;
+      }
+      
+      if (
+        windowOffset >= Plichko.offset().top - viewPort &&
+        windowOffset <= Plichko.offset().top + 200
+      ) {
+        let st10 = $(this).scrollTop();
+        if (st10 > lastScrollTop10) {
+          xPlichko -= 2;
+          Plichko.parent().css('transform', 'translateX(' + xPlichko + 'px)');
+        } else {
+          xPlichko += 2;
+          Plichko.parent().css('transform', 'translateX(' + xPlichko + 'px)');
+        }
+        lastScrollTop10 = st10;
+      }
+    
+      if (
+        windowOffset >= RPazenko.offset().top - viewPort &&
+        windowOffset <= RPazenko.offset().top + 200
+      ) {
+        let st11 = $(this).scrollTop();
+        if (st11 > lastScrollTop11) {
+          xRPazenko -= 2;
+          RPazenko.parent().css('transform', 'translateX(' + xRPazenko + 'px)');
+        } else {
+          xRPazenko += 2;
+          RPazenko.parent().css('transform', 'translateX(' + xRPazenko + 'px)');
+        }
+        lastScrollTop11 = st11;
+      }
+      if (
+        windowOffset >= Lozitskiy.offset().top - viewPort &&
+        windowOffset <= Lozitskiy.offset().top + 200
+      ) {
+        let st12 = $(this).scrollTop();
+        if (st12 > lastScrollTop12) {
+          xLozitskiy -= 2;
+          Lozitskiy.parent().css('transform', 'translateX(' + xLozitskiy + 'px)');
+        } else {
+          xLozitskiy += 2;
+          Lozitskiy.parent().css('transform', 'translateX(' + xLozitskiy + 'px)');
+        }
+        lastScrollTop12 = st12;
+      }
+    
+      if (
+        windowOffset >= Bogunenko.offset().top - viewPort &&
+        windowOffset <= Bogunenko.offset().top + 200
+      ) {
+        let st13 = $(this).scrollTop();
+        if (st13 > lastScrollTop13) {
+          xBogunenko -= 2;
+          Bogunenko.parent().css('transform', 'translateX(' + xBogunenko + 'px)');
+        } else {
+          xBogunenko += 2;
+          Bogunenko.parent().css('transform', 'translateX(' + xBogunenko + 'px)');
+        }
+        lastScrollTop13 = st13;
+      }
+    
+      if (
+        windowOffset >= IPazenko.offset().top - viewPort &&
+        windowOffset <= IPazenko.offset().top + 200
+      ) {
+        let st14 = $(this).scrollTop();
+        if (st14 > lastScrollTop14) {
+          xIPazenko -= 2;
+          IPazenko.parent().css('transform', 'translateX(' + xIPazenko + 'px)');
+        } else {
+          xIPazenko += 2;
+          IPazenko.parent().css('transform', 'translateX(' + xIPazenko + 'px)');
+        }
+        lastScrollTop14 = st14;
+      }
+      if (
+        windowOffset >= Belookiy.offset().top - viewPort &&
+        windowOffset <= Belookiy.offset().top + 200
+      ) {
+        let st15 = $(this).scrollTop();
+        if (st15 > lastScrollTop15) {
+          xBelookiy -= 2;
+          Belookiy.parent().css('transform', 'translateX(' + xBelookiy + 'px)');
+        } else {
+          xBelookiy += 2;
+          Belookiy.parent().css('transform', 'translateX(' + xBelookiy + 'px)');
+        }
+        lastScrollTop15 = st15;
+      }
+      if (
+        windowOffset >= Ivanchenko.offset().top - viewPort &&
+        windowOffset <= Ivanchenko.offset().top + 200
+      ) {
+        let st16 = $(this).scrollTop();
+        if (st16 > lastScrollTop16) {
+          xIvanchenko -= 2;
+          Ivanchenko.parent().css('transform', 'translateX(' + xIvanchenko + 'px)');
+        } else {
+          xIvanchenko += 2;
+          Ivanchenko.parent().css('transform', 'translateX(' + xIvanchenko + 'px)');
+        }
+        lastScrollTop16 = st16;
+      }
+    
+    });
+    }
+
+
+
+
+
+     
 
     // --------sliding text------
     let timeOutSliding;
@@ -27,7 +345,7 @@ export default {
        let Karpov = $('#Karpov').offset().left;
               $('#Karpov-text').css({
                 'transform':'translateX(-' + Karpov + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -44,7 +362,7 @@ export default {
        let Trigub = $('#Trigub').offset().left;
               $('#Trigub-text').css({
                 'transform':'translateX(-' + Trigub + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -61,7 +379,7 @@ export default {
        let Rudas = $('#Rudas').offset().left;
               $('#Rudas-text').css({
                 'transform':'translateX(-' + Rudas + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -78,7 +396,7 @@ export default {
        let Pozniakova = $('#Pozniakova').offset().left;
               $('#Pozniakova-text').css({
                 'transform':'translateX(-' + Pozniakova + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -95,7 +413,7 @@ export default {
        let Svystunov = $('#Svystunov').offset().left;
               $('#Svystunov-text').css({
                 'transform':'translateX(-' + Svystunov + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -112,7 +430,7 @@ export default {
        let Pazenko = $('#Pazenko').offset().left;
               $('#Pazenko-text').css({
                 'transform':'translateX(-' + Pazenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -129,7 +447,7 @@ export default {
        let Samusenko = $('#Samusenko').offset().left;
               $('#Samusenko-text').css({
                 'transform':'translateX(-' + Samusenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -146,7 +464,7 @@ export default {
        let Kravchenko = $('#Kravchenko').offset().left;
               $('#Kravchenko-text').css({
                 'transform':'translateX(-' + Kravchenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -163,7 +481,7 @@ export default {
        let Plichko = $('#Plichko').offset().left;
               $('#Plichko-text').css({
                 'transform':'translateX(-' + Plichko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -180,7 +498,7 @@ export default {
        let Pazenko = $('#Pazenko').offset().left;
               $('#Pazenko-text').css({
                 'transform':'translateX(-' + Pazenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -197,7 +515,7 @@ export default {
        let RPazenko = $('#RPazenko').offset().left;
               $('#RPazenko-text').css({
                 'transform':'translateX(-' + RPazenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -214,7 +532,7 @@ export default {
        let Lozitskiy = $('#Lozitskiy').offset().left;
               $('#Lozitskiy-text').css({
                 'transform':'translateX(-' + Lozitskiy + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -231,7 +549,7 @@ export default {
        let Bogunenko = $('#Bogunenko').offset().left;
               $('#Bogunenko-text').css({
                 'transform':'translateX(-' + Bogunenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -248,7 +566,7 @@ export default {
        let IPazenko = $('#IPazenko').offset().left;
               $('#IPazenko-text').css({
                 'transform':'translateX(-' + IPazenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -265,7 +583,7 @@ export default {
        let Belookiy = $('#Belookiy').offset().left;
               $('#Belookiy-text').css({
                 'transform':'translateX(-' + Belookiy + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });
@@ -282,7 +600,7 @@ export default {
        let Ivanchenko = $('#Ivanchenko').offset().left;
               $('#Ivanchenko-text').css({
                 'transform':'translateX(-' + Ivanchenko + 'px)',
-              'opacity':'0.6',
+              'opacity':'0.8',
              });
               clearInterval(timeOutSliding);
             });

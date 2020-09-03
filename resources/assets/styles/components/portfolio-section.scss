@@ -1,6 +1,9 @@
 .portfolio-all {
   position: relative;
   padding: 100px 0 220px;
+  @include media-breakpoint-down(lg) {
+    padding: 100px 0;
+  }
   .bg-text {
     position: absolute;
     left: 0;
@@ -37,9 +40,9 @@
       &:first-letter {
         color: $red;
       }
-      @include media-breakpoint-down(md) {
-        display: block;
-      }
+      // @include media-breakpoint-down(md) {
+      //   display: block;
+      // }
     }
   }
   &__text {

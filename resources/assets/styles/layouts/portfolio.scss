@@ -12,7 +12,6 @@
     }
     h3 {
       color: #0d0d0d;
-      // font-family: "DM Sans", sans-serif;
       @include dm-sans-medium;
       font-style: normal;
       font-weight: 500;
@@ -20,6 +19,9 @@
       line-height: 52px;
       display: block;
       margin: 18px 0 32px;
+      @include media-breakpoint-down(lg) {
+        min-height: 160px;
+      }
       @include media-breakpoint-only(md) {
         min-height: 120px;
       }
@@ -35,8 +37,10 @@
   &__image {
     position: relative;
     z-index: 2;
-    &:before {
-      content: url("images/portfolio/bg.svg");
+    .img-before {
+      // }
+      // &:before {
+      //   content: url("images/portfolio/bg.svg");
       position: absolute;
       z-index: -1;
       overflow: hidden;
@@ -55,6 +59,9 @@
         width: 50%;
         max-height: 200px;
       }
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
     }
     img {
       width: 100%;
@@ -69,9 +76,15 @@
     width: 100vw;
     height: 194px;
     top: -1%;
-    left: -51%;
+    left: -50%;
     transform: translate(50%);
     background-color: #f1f1f1;
+    @include media-breakpoint-down(md) {
+      height: 242px;
+    }
+    @media (max-width: 370px) {
+      height: 360px;
+    }
   }
   &__show {
     p {
@@ -82,10 +95,6 @@
   }
   &__item {
     position: relative;
-    color: #0d0d0d;
-    padding-left: 65px;
-    @include dm-sans-medium;
-    font-size: 24px;
     &:before {
       color: #fa333c;
       position: absolute;
@@ -119,16 +128,37 @@
       @include media-breakpoint-only(md) {
         justify-content: space-around;
       }
+      @media (max-width: 370px) {
+        justify-content: center;
+      }
       li {
         margin-bottom: 25px;
-        @media (min-width: 1200px) {
-          margin-right: 30px;
+        color: #0d0d0d;
+        padding: 0 0 0 65px;
+        @include dm-sans-medium;
+        font-size: 24px;
+        @include media-breakpoint-only(md) {
+          margin: 0 0 30px 0;
+          padding: 0 0 0 0;
         }
         @include media-breakpoint-down(sm) {
-          padding: 0 !important;
+          padding: 0;
+        }
+        @media (max-width: 370px) {
+          margin: 0 40px 25px 40px;
+        }
+        &:first-of-type {
+          @include media-breakpoint-up(lg) {
+            padding: 0 0 0 0;
+          }
         }
         &:last-of-type {
-          margin-right: 0;
+          @include media-breakpoint-up(lg) {
+            margin: 0 0 30px 0;
+          }
+          @media (max-width: 370px) {
+            margin: 0 40px;
+          }
         }
         a {
           min-width: 180px;
@@ -175,7 +205,10 @@
   .body-tabs {
     width: 100%;
     overflow-x: hidden;
-    padding: 248px 0 0 0;
+    padding: 137px 0 0 0;
+    @include media-breakpoint-down(lg) {
+      padding: 80px 0 0 0;
+    }
     &__content {
       outline: none;
       position: relative;
@@ -199,6 +232,6 @@
   position: relative;
   &__inner {
     transition: background-color 0.5s;
-    background-color: white;
+    background-color: #f1f1f1;
   }
 }

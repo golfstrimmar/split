@@ -9,13 +9,13 @@
         </svg>
       </a>
       <!-- /logo -->
-
+  
       <!-- menu -->
-      <div class="menu d-flex flex-column align-items-md-end justify-content-md-end">
-        <div class="menu__head d-flex d-md-none align-items-center justify-content-between">
+      <div class="menu d-flex flex-column align-items-lg-end justify-content-lg-end">
+        <div class="menu__head d-flex d-lg-none align-items-center justify-content-between">
           <a href="/" class="logo d-flex list flex-center">
             <svg class="icon" width="91" height="34">
-              <use xlink:href="#logo-black"></use>
+              <use xlink:href="#logo-black"></use>  
             </svg>
           </a>
           <a href="#" class="menu__close">
@@ -25,7 +25,7 @@
           </a>
         </div>
         <div class="menu__content">
-          <ul class="menu__list list d-flex flex-column flex-md-row align-items-md-center">
+          <ul class="menu__list list d-flex flex-column flex-lg-row align-items-lg-center">
             {{#each menu}}
             <li class="menu__item">
               <a href="{{ link }}" class="menu__link animation-letters">{{ link_name }}</a>
@@ -34,7 +34,7 @@
           </ul>
         </div>
 
-        <ul class="social list d-flex d-md-none align-items-center justify-content-between">
+        <ul class="social list d-flex d-lg-none align-items-center justify-content-between">
        {{#each social}}
           <li>
             <a href="{{ link }}" target="_blank">
@@ -48,38 +48,11 @@
       </div>
       <!-- /menu -->
       <!-- burger -->
-      <div class="burger-menu d-flex d-md-none position-relative">
+      <div class="burger-menu d-flex d-lg-none position-relative">
         <span class="burger-menu__line"></span>
       </div>
       <!-- /burger -->
       {{/each}}
     </div>
   </div>
-  <!--
-  <div class="menu-main--mob">
-    <div class="menu-main--mob__content">
-      <a href="/index.html">
-        <img src="images/logo/split-logo--small.svg" alt="SPLIT Development Logo" style="width: 86px">
-      </a>
-      <ul class="menu-main--mob__list list ">
-        {{#each header}}
-        {{#each menu}}
-          <li {{#if active}} class="active" {{/if}}>
-            <a href="{{ link }}">{{ link_name }}</a>
-          </li>
-        {{/each}}
-        {{/each}}
-      </ul>
-      <hr>
-      <ul class="menu-main--mob__list extra list d-flex flex-wrap">
-        {{#each footer}}
-        {{#each col3}}
-          <li>
-            <a href="{{ link }}">{{ text }}</a>
-          </li>
-        {{/each}}
-        {{/each}}
-      </ul>
-    </div>
-  </div> -->
 </header>

@@ -15,21 +15,35 @@ export default {
     const body = document.querySelector('body');
 
     window.onscroll = function () {
+  let header = $('#header');
+  let headerWhite = $('#header-white');
+     
       if (window.pageYOffset > 50)
 {
-document.querySelector('.header').classList.remove('opened');
-document.querySelector('.header').classList.add('bcolor');
-document.querySelector('.header-white').classList.add('bcolor-white');
-document.querySelector('.header-white').classList.remove('bcolor');
+header.css({
+  'background-color': 'rgba(0, 0, 0, 0.8)',
+  'padding': '10px 0',
+  'opacity': '0.9',
+});
+headerWhite.css({
+  'background-color': '#f1f1f1',
+  'padding': '10px 0',
+  'opacity': '0.9',
+});
 }
       else
 {
-document.querySelector('.header').classList.remove('bcolor');
-document.querySelector('.header').classList.add('opened');
-document.querySelector('.header-white').classList.add('opened');
-document.querySelector('.header-white').classList.remove('bcolor-white');
+header.css({
+  'background-color': 'transparent',
+  'padding': '24px 0',
+  'opacity': '1',
+});
+headerWhite.css({
+  'background-color': 'transparent',
+  'padding': '24px 0',
+  'opacity': '1',
+});
 }
-
     }
 
     // document.querySelector('.header__menu__icon').addEventListener('click', function (e) {
@@ -38,11 +52,6 @@ document.querySelector('.header-white').classList.remove('bcolor-white');
     //     document.querySelector('.menu-main--mob').classList.add('show');
     //   }
     // });
-
-
-
-
-
 
     //* open mobile menu
     {
@@ -175,6 +184,18 @@ document.querySelector('.header-white').classList.remove('bcolor-white');
     $('#toTop').click(function () {
       $('html, body').animate({scrollTop: 0}, 700);
     });
+
+    // ==========ibg=========
+function ibg() {
+  $.each($('.ibg-js'), function () {
+    if ($(this).find('img').length > 0) {
+      $(this).css('background-image', 'url("' + $(this).find('img').attr('src') + '")');
+    }
+  });
+}
+
+ibg();
+
   },
 
   // JavaScript to be fired on all pages, after page specific JS is fired

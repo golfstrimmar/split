@@ -4,6 +4,7 @@
 
 export default {
   init() {
+    
     // $('h1').on('click', function () {
     //   let video = document.createElement('video');
     //   $(video).attr('class','home__banner__video');
@@ -142,7 +143,7 @@ instagramFeed('.instagram-images');
       itemContainer.css('background', itemContainer.data('bg-col'));
     });
 
-// -----блоки качаются и меняют цвет по градиенту------
+// -----/блоки качаются и меняют цвет по градиенту------
 
 
     /*

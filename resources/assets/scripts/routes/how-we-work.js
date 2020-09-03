@@ -8,14 +8,20 @@ import '../partials/btn-6';
 export default {
   init() {
     // eslint-disable-next-line no-unused-vars
-    var rellax = new Rellax('.rellax', {
-      speed: -2,
-      wrapper: null,
-      center: true,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
+    // Destroy and create again parallax with previous settings
+     
+     setTimeout(function(){
+        // Start Rellax
+        // eslint-disable-next-line no-unused-vars
+        var rellax = new Rellax('.rellax', {
+          speed: -2,
+          wrapper: null,
+          center: true,
+          round: true,
+          vertical: true,
+          horizontal: false,
+        });
+      }, 200);
 
     typed();
   },

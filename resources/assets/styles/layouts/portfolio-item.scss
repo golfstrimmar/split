@@ -243,17 +243,12 @@
     position: relative;
     margin: 0;
     overflow: hidden;
-    background-image: url("images/portfolio/mac.svg");
-    background-size: 923px 890px;
-    background-repeat: no-repeat;
-    background-position: center;
     @include media-breakpoint-up(xl) {
       position: absolute;
-      width: 923px;
-      height: 584px;
-      top: 4%;
+      width: 931px;
+      height: 497px;
+      top: 12%;
       left: 30%;
-      background-size: 100% 100%;
     }
     @include media-breakpoint-down(lg) {
       width: 900px;
@@ -262,21 +257,21 @@
       position: absolute;
       top: 108%;
       left: 50%;
-      background-size: 100% 100%;
+      // background-size: 100% 100%;
       transform: translate(-50%);
     }
     @include media-breakpoint-down(md) {
       width: 700px;
-      height: 500px;
+      height: 408px;
       background-size: contain;
       padding: 0;
       margin: -114px 0 18px;
-      top: 115%;
+      top: 124%;
       left: 50%;
       transform: translate(-50%);
     }
     @include media-breakpoint-down(sm) {
-      width: 326px;
+      width: 378px;
       height: 220px;
       padding: 0;
       position: absolute;
@@ -286,7 +281,7 @@
     }
     iframe {
       width: 67%;
-      height: 72%;
+      height: 83%;
       position: absolute;
       top: 49%;
       left: 50%;
@@ -294,18 +289,18 @@
       transform: translate(-50.5%, -52%);
       @include media-breakpoint-down(lg) {
         transform: translate(-50.5%, -49%) scale(0.67);
-        width: 100%;
-        height: 107%;
+        width: 110%;
+        height: 126%;
         top: 45%;
       }
       @include media-breakpoint-down(md) {
         transform: translate(-50%, -41%) scale(0.64);
-        width: 103%;
-        height: 97%;
-        top: 39%;
+        width: 112%;
+        height: 130%;
+        top: 35%;
       }
       @include media-breakpoint-down(sm) {
-        top: 38%;
+        top: 35%;
       }
     }
     img {
@@ -319,9 +314,6 @@
     display: none;
     overflow: hidden;
     position: relative;
-    background-image: url("images/portfolio/iphone_x.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 326px;
     height: 653px;
     margin: 30px 0 18px;
@@ -356,9 +348,9 @@
     }
     iframe {
       width: 100%;
-      height: 100%;
+      height: 107%;
       position: absolute;
-      top: 50%;
+      top: 52%;
       left: 50%;
       transform: translate(-50%, -50%) scale(0.8);
     }

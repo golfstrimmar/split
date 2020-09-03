@@ -5,7 +5,6 @@
 </head>
 
 <body class="we-do">
-  {{!-- {{> ../common/header }} --}}
 {{> ../common/header-white}}
 
 <section class="we-do__hero">
@@ -24,6 +23,9 @@
         </p>
       </div>
       <div class="col-12 we-do__hero__img"> 
+        <div class="ibg-js bg">
+          <img src="images/what-we-do/we-do-bg.jpg" alt="img">
+        </div>
       </div>
     </div>
   </div>
@@ -48,24 +50,29 @@
     </div>
   </section>
 
-
   <section class="our-way__section margin-footer">
     <div class="container position-relative left-position-text__container">
       <div class="left-position-text">
         <span>Our way in work</span>
       </div>
-      <div class="row capabilities__head">
-        <div class="col-xl-12">
+      <div class="row no-gutters capabilities__head cap-head"> 
+        <div class="col-12 cap-head__text">
           <p>We help brands communicate to their audience through creative design, clever strategy and technology.</p>
+        </div>
+        <div class="decor-way">
+          <div class="ibg-js bg">
+            <img src="images/what-we-do/we-do-decor.jpg" alt="img">
+          </div>
         </div>
       </div>
       <div class="our-way__content d-flex row no-gutters">
+        
         {{#each our-way}}
         {{> ../partials/our-way-tile}}
         {{/each}}
+     
       </div>
     </div>
- <div class="decor-way"></div>
   </section>
 
   

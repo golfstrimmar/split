@@ -182,3 +182,23 @@ body {
 .page-bottom {
   position: relative;
 }
+
+.ibg-js {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  img {
+    display: none;
+  }
+}
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

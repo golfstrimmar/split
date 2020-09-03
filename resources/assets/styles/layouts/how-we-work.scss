@@ -55,24 +55,29 @@
     padding-top: 46px;
   }
   .left-position-text {
+    left: -76px;
+    @include media-breakpoint-down(md) {
+      left: 0;
+    }
     @include media-breakpoint-down(md) {
       position: relative;
       z-index: 1;
+      top: -8px;
+      display: block;
     }
   }
   .scrolling__container {
     overflow-x: hidden;
+    position: relative;
     position: absolute;
     top: -80px;
     left: 49%;
-    // right: 0;
-    // bottom: 0;
-    height: 1000px;
+    height: 1117px;
     -webkit-transform: translate(-50%);
     transform: translate(-50%);
     width: 100vw;
     @include media-breakpoint-down(md) {
-      top: -210px;
+      top: -100px;
     }
     @include media-breakpoint-down(sm) {
       display: none;
@@ -110,7 +115,8 @@
         position: relative;
         .rellax {
           display: block;
-          top: 0 !important;
+          // top: 0 !important;
+          // transform: translate3d(0, 0, 0);
         }
       }
       h2 {

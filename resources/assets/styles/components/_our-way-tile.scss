@@ -1,3 +1,46 @@
+.our-way__section {
+  padding-top: 91px;
+  padding-bottom: 157px;
+  position: relative;
+  .capabilities__head {
+    margin-bottom: 86px;
+    position: relative;
+  }
+  .cap-head {
+    &__text {
+      z-index: 3;
+      position: relative;
+      p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 83px;
+        @include media-breakpoint-down(sm) {
+          font-size: 19px;
+          line-height: 25px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+    .decor-way {
+      position: absolute;
+      width: 83vw;
+      height: 758px;
+      top: 41%;
+      left: 1%;
+      z-index: 2;
+      background-image: url(images/what-we-do/we-do-decor.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 45px;
+      }
+    }
+  }
+}
+
 .our-way {
   padding: 154px 24px 44px;
   position: relative;
@@ -6,44 +49,14 @@
   background-color: #fff;
   z-index: 3;
   @include media-breakpoint-down(lg) {
-    margin: 0 40px 84px 40px;
+    margin: 0 20px 84px 20px;
   }
+  // @include media-breakpoint-down(md) {
+  //   padding: 154px 15px 44px;
+  // }
   @include media-breakpoint-down(sm) {
+    padding: 154px 24px 44px;
     margin: 0 0 40px 0;
-  }
-  &__section {
-    padding-top: 91px;
-    padding-bottom: 157px;
-    background-color: #f1f1f1;
-    position: relative;
-    .decor-way {
-      position: absolute;
-      width: 1239px;
-      height: 758px;
-      top: 18%;
-      left: 20%;
-      z-index: 2;
-      background-image: url(images/what-we-do/we-do-decor.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      @include media-breakpoint-down(sm) {
-        display: none;
-      }
-    }
-    @include media-breakpoint-down(lg) {
-      padding-bottom: 0;
-    }
-    @include media-breakpoint-down(sm) {
-      padding-top: 40px;
-    }
-    .capabilities__head {
-      margin-bottom: 86px;
-      z-index: 3;
-      position: relative;
-      @include media-breakpoint-down(lg) {
-        margin-bottom: 45px;
-      }
-    }
   }
   &__avatar {
     position: absolute;

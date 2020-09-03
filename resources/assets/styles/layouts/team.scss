@@ -38,8 +38,7 @@
   &__left {
     width: 262px;
     height: 334px;
-    background: url(images/viktor-svistunov-avatar.jpg) no-repeat;
-    background-size: cover;
+    position: relative;
     @include media-breakpoint-only(md) {
       margin: 0 auto 20px;
     }
@@ -138,11 +137,11 @@
       margin-bottom: 25px;
     }
   }
-  .\.hidden-sm {
-    @include media-breakpoint-down(sm) {
-      //display: none;
-    }
-  }
+  // .\.hidden-sm {
+  //   @include media-breakpoint-down(sm) {
+  //     //display: none;
+  //   }
+  // }
 }
 
 .skills {
@@ -364,20 +363,12 @@
       @media (max-width: 767px) {
         max-width: 328px;
       }
-      // &:hover {
-      //   background-color: #fa333c;
-      //   color: #fff;
-      // }
       &:last-child {
         color: #fff;
         background-color: #fa333c;
         @media (max-width: 767px) {
           margin-top: 25px;
         }
-        // &:hover {
-        //   color: #fa333c;
-        //   background-color: transparent;
-        // }
       }
     }
   }

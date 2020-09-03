@@ -6,7 +6,6 @@
       }
     }
   }
-
   &__hero {
     background-color: $gray-ultra-light;
     padding: 176px 0 0 0;
@@ -40,9 +39,6 @@
     }
     &__img {
       margin: 37px 0 0 0;
-      background-image: url(images/what-we-do/we-do-bg.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
       width: 100%;
       height: 347px;
       @include media-breakpoint-down(md) {
@@ -56,59 +52,89 @@
       }
     }
   }
-}
-.capabilities {
-  &__section {
-    padding: 91px 0 90px;
-    background-color: #fff;
-    @include media-breakpoint-down(md) {
-      padding-bottom: 64px;
-    }
-    @include media-breakpoint-down(sm) {
-      padding-top: 35px;
-    }
-  }
-  &__head {
-    @include media-breakpoint-down(lg) {
-      padding: 0 0 0 40px;
-    }
-    @include media-breakpoint-down(md) {
-      padding: 0;
-    }
-    p {
-      font-size: 22px;
-      line-height: 32px;
-      margin-bottom: 83px;
+  .capabilities {
+    &__section {
+      padding: 91px 0 90px;
+      background-color: #fff;
+      @include media-breakpoint-down(md) {
+        padding-bottom: 64px;
+      }
       @include media-breakpoint-down(sm) {
-        font-size: 19px;
-        line-height: 25px;
-        margin-bottom: 40px;
+        padding-top: 35px;
       }
     }
-  }
-  &__content {
-    padding: 28px 0 0 0;
-    .capability-tile {
-      margin-bottom: 60px;
+    &__head {
       @include media-breakpoint-down(lg) {
-        margin-bottom: 20px;
+        padding: 0 0 0 40px;
       }
       @include media-breakpoint-down(md) {
-        margin-bottom: 10px;
+        padding: 0;
       }
-      @include media-breakpoint-down(md) {
-        margin-bottom: 24px;
-      }
-      &:nth-child(odd) {
-        margin-right: 40px;
+    }
+    &__content {
+      padding: 28px 0 0 0;
+      .capability-tile {
+        margin-bottom: 60px;
         @include media-breakpoint-down(lg) {
-          margin-right: 20px;
+          margin-bottom: 20px;
         }
         @include media-breakpoint-down(md) {
-          margin-right: 10px;
+          margin-bottom: 10px;
         }
+        @include media-breakpoint-down(md) {
+          margin-bottom: 24px;
+        }
+        &:nth-child(odd) {
+          margin-right: 40px;
+          @include media-breakpoint-down(lg) {
+            margin-right: 20px;
+          }
+          @include media-breakpoint-down(md) {
+            margin-right: 10px;
+          }
+          @include media-breakpoint-down(sm) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .our-way__section {
+    padding-top: 91px;
+    padding-bottom: 157px;
+    position: relative;
+    .capabilities__head {
+      margin-bottom: 86px;
+      position: relative;
+    }
+    .cap-head {
+      &__text {
+        z-index: 3;
+        position: relative;
+        p {
+          font-size: 22px;
+          line-height: 32px;
+          margin-bottom: 83px;
+          @include media-breakpoint-down(sm) {
+            font-size: 19px;
+            line-height: 25px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+      .decor-way {
+        position: relative;
+        position: absolute;
+        width: 83vw;
+        height: 758px;
+        top: 41%;
+        left: 1%;
+        z-index: 2;
         @include media-breakpoint-down(sm) {
-          margin-right: 0;
+          display: none;
+        }
+        @include media-breakpoint-down(lg) {
+          margin-bottom: 45px;
         }
       }
     }
