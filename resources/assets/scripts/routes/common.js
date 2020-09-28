@@ -87,15 +87,19 @@ headerWhite.css({
         // };
 
         $(window).resize(function () {
-          if ($(window).width() > 768) {
+          if ($(window).width() > 992) {
             header_menu.classList.remove('js-opened');
             body.classList.remove('hidden');
+            homeBanner.classList.remove('open-menu');
+            homeBanner.classList.add('close-menu');
+            header_menu.classList.remove('js-opened');
+            header.classList.remove('js-opened'); 
           }
         });
-        if ($(window).width() > 768) {
-          header_menu.classList.remove('js-opened');
-          body.classList.remove('hidden');
-        }
+        // if ($(window).width() > 992) {
+        //   header_menu.classList.remove('js-opened');
+        //   body.classList.remove('hidden');
+        // }
 
         // document.addEventListener('touchend', checkBody(true));
         // document.addEventListener('mouseup', checkBody(true));

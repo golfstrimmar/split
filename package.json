@@ -81,7 +81,5 @@
     "vanilla-lazyload": "^11.0.6",
     "wowjs": "^1.1.3",
     "yarn": "^1.17.3"
-  },
-  "main": "index.js",
-  "author": "yushinbox@gmail.com <yushinbox@gmail.com>"
+  }
 }

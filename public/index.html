@@ -1,0 +1,896 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>SPLIT Development</title>
+  
+  <!--<meta name="description" content="">
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="" />
+  <meta property="og:image" content=""/>
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Name project"/>
+  <meta property="og:description" content="" />
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content="Name project"/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="">
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+  <link rel="icon" type="image/png" sizes="16x16" href="">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="">
+  <meta name="msapplication-TileColor" content="">-->
+  
+<link href="./styles/main.css" rel="stylesheet"></head>
+
+<body class="index">
+  <header id="header" class="header opened">
+    <div class="container">
+      <div class="header__inner d-flex align-items-center justify-content-between">
+        <!-- logo -->
+        <a href="/" class="logo d-flex list flex-center">
+          <svg class="icon" width="91" height="34">
+            <use xlink:href="#logo-white"></use>
+          </svg>
+        </a>
+        <!-- /logo -->
+    
+        <!-- menu -->
+        <div class="menu d-flex flex-column align-items-lg-end justify-content-lg-end">
+          <div class="menu__head d-flex d-lg-none align-items-center justify-content-between">
+            <a href="/" class="logo d-flex list flex-center">
+              <svg class="icon" width="91" height="34">
+                <use xlink:href="#logo-black"></use>  
+              </svg>
+            </a>
+            <a href="#" class="menu__close">
+              <svg class="icon" width="24" height="23">
+                <use xlink:href="#close"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="menu__content">
+            <ul class="menu__list list d-flex flex-column flex-lg-row align-items-lg-center">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link animation-letters">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="portfolio.html" class="menu__link animation-letters">Portfolio</a>
+              </li>
+              <li class="menu__item">
+                <a href="about.html" class="menu__link animation-letters">About us</a>
+              </li>
+              <li class="menu__item">
+                <a href="what-we-do.html" class="menu__link animation-letters">What we do</a>
+              </li>
+              <li class="menu__item">
+                <a href="how-we-work.html" class="menu__link animation-letters">Work process</a>
+              </li>
+              <li class="menu__item">
+                <a href="contact.html" class="menu__link animation-letters">Contact us</a>
+              </li>
+            </ul>
+          </div>
+  
+          <ul class="social list d-flex d-lg-none align-items-center justify-content-between">
+            <li>
+              <a href="https://www.upwork.com/ag/splitdev/" target="_blank">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="#upwork"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/splitdev" target="_blank">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="#behance"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/splitdev" target="_blank">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="#dribble"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/splitdevelopment" target="_blank">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/splitdev.pro" target="_blank">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/splitdev" target="_blank">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <!-- burger -->
+        <div class="burger-menu d-flex d-lg-none position-relative">
+          <span class="burger-menu__line"></span>
+        </div>
+        <!-- /burger -->
+      </div>
+    </div>
+  </header>
+  <!-- home-banner -->
+  <div class="home-banner close-menu position-relative overflow-hidden w-100">
+    <div class="ibg-js bg">
+      <img src="./images/hero-bc.jpg" alt="img">
+    </div>
+    <!-- home-banner__video -->
+    <video class="home-banner__video" 
+      data-poster="https://mk0trueagencygt2rhoj.kinstacdn.com/wp-content/uploads/2018/08/digital-agency-melbourne-true.jpg"
+      autoplay="" loop="" muted=""> 
+      <source src="images/home-video/split21-02-20.mp4" type="video/mp4">
+    </video>  
+    <!-- /home-banner__video -->
+
+    <div class="container position-relative">
+      <!-- top-hero -->
+      <div class="top-hero d-flex align-items-center">
+        <h1>We are progressive company that specialized on <br><span class="red-span" id="typed"
+            data-typed-text="design, frontend, web development"></span>
+        </h1>
+      </div>  
+      <!-- /top-hero -->
+
+      <!-- social -->
+      <ul class="social list d-flex align-items-center justify-content-between justify-content-md-end">
+        <li>
+          <a href="https://www.upwork.com/ag/splitdev/" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#upwork"></use>  
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.behance.net/splitdev" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#behance"></use>  
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://dribbble.com/splitdev" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#dribble"></use>  
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/splitdevelopment" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#facebook"></use>  
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/splitdev.pro" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#instagram"></use>  
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/splitdev" target="_blank">
+            <svg class="icon" width="50" height="50">
+              <use xlink:href="#linkedin"></use>  
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <!-- /social -->
+    </div>
+       
+  </div>
+  <!-- /home-banner -->
+   
+
+    
+ <!-- home -->
+ <!-- home -->
+ <!-- home -->
+  <div class="home margin-footer">  
+       
+   
+
+    <section class="home__portfolio">
+    <div class="scrolling__container">
+        <div class="scrolling">
+            <p class="scrolling__text" id="portfolio">
+              Portfolio
+            </p>
+            <p class="scrolling__text" id="design">   
+              Disigne
+            </p>
+            <p class="scrolling__text" id="frontend">   
+              Frontend
+            </p>
+            <p class="scrolling__text" id="backend">   
+              Backend
+            </p>
+       
+        </div> 
+    </div>
+
+        <div class="container position-relative left-position-text__container">
+         
+          <div class="left-position-text">
+             <span  class="left-position-text-span">Projects</span>
+          </div>
+
+
+          <div class="head-section w-100 d-md-flex align-items-md-center  justify-content-between">
+          <div class="head-section__item">
+            <p class="head-section__text">Here are some of our projects, check it out:</p>
+          </div>
+          <div class="head-section__item">
+            <a href="portfolio.html" class="btn head-section__btn btn__white btn__hover-red btn-6">
+              <span></span>
+              All works
+            </a>
+          </div>
+          </div>
+  
+          <div class="portfolio d-flex flex-column">
+          <div
+            class="portfolio__bit w-100 position-relative d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-md-between">
+            <a href="#" class="portfolio__tile" data-bg-col="#f5f5f5" data-bg-center="#e6b8b4"
+              style="background-color: #f5f5f5">
+              <img src="images/home-portfolio/home-portfolio-rentorr.svg" alt="Split Development">
+            </a>
+            <a href="#" class="portfolio__tile" data-bg-col="#e7f1f5" data-bg-center="#33acfd"
+              style="background-color: #e7f1f5">
+              <img src="images/home-portfolio/person.png" alt="Split Development">
+            </a>
+          </div>
+          <div
+            class="portfolio__bit w-100 position-relative d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-md-between">
+            <a href="#" class="portfolio__tile" data-bg-col="#151515" data-bg-center="#a6a6a6"
+              style="background-color: #151515">
+              <img src="images/home-portfolio/home-portfolio-car.png" alt="Split Development">
+            </a>
+            <a href="#" class="portfolio__tile" data-bg-col="#fafafa" data-bg-center="#faebb1"
+              style="background-color: #fafafa">
+              <img src="images/home-portfolio/home-portfolio-fixit.png" alt="Split Development">
+            </a>
+          </div>
+          </div>
+     
+      </div>
+ 
+
+    </section>
+
+    <section class="home__use">
+
+      <div class="container position-relative left-position-text__container">
+       
+       
+        <div class="left-position-text">
+          <span>What we use</span>
+        </div>
+
+ 
+
+        <div class="head-section w-100 d-md-flex align-items-md-center justify-content-between">
+          <div class="head-section__item">
+            <p class="head-section__text">We use all popular instruments for design and development:</p>
+          </div>
+
+          <div class="head-section__item">
+
+            <a href="" class="btn head-section__btn btn__white btn__hover-red btn-6">All specifies
+              <span></span>
+            </a>
+
+          </div>
+
+        </div>
+ 
+
+        <div class="home__use__container">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" class="home__use__specifies frontend">
+                <span class="home__use__specifies__icons">
+                  <span class="icon avocode d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/avocode.svg" alt="avocode">
+                  </span>
+                  <span class="icon zeplin d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/zeplin.svg" alt="zeplin">
+                  </span>
+                  <span class="icon gulp d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/gulp.svg" alt="gulp">
+                  </span>
+                  <span class="icon phpstorm d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/phpstorm.svg" alt="phpstorm">
+                  </span>
+                  <span class="icon webpack d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/webpack.svg" alt="webpack">
+                  </span>
+                </span>
+                <span class="title">Frontend Development</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" class="home__use__specifies design">
+                <span class="home__use__specifies__icons">
+                  <span class="icon figma d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/figma.svg" alt="figma">
+                  </span>
+                  <span class="icon invision d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/invision.svg" alt="invision">
+                  </span>
+                  <span class="icon p d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/p.svg" alt="p">
+                  </span>
+                  <span class="icon photoshop d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/photoshop.svg" alt="photoshop">
+                  </span>
+                  <span class="icon sketch d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/sketch.svg" alt="sketch">
+                  </span>
+                </span>
+                <span class="title">UI/UX Design</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" class="home__use__specifies backend">
+                <span class="home__use__specifies__icons">
+                  <span class="icon git d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/git.svg" alt="git">
+                  </span>
+                  <span class="icon mysql d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/mysql.svg" alt="mysql">
+                  </span>
+                  <span class="icon wp d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/wp.svg" alt="wp">
+                  </span>
+                  <span class="icon phpstorm d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/phpstorm.svg" alt="phpstorm">
+                  </span>
+                  <span class="icon php d-flex align-items-center justify-content-center">
+                    <img src="images/instruments/php.svg" alt="php">
+                  </span>
+                </span>
+                <span class="title">Backend Development</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="home__about">
+   
+       <div class="scrolling__container">
+          <div class="scrolling">
+            <p class="scrolling__text" id="about">
+             About us
+           </p>
+         </div>
+       </div>
+
+      <div class="container position-relative left-position-text__container">
+        <div class="left-position-text white">
+          <span>About us</span>
+        </div>
+
+        <div class="head-section w-100 d-md-flex align-items-md-center justify-content-end">
+          <div class="head-section__item">
+            <a href="portfolio.html" class="btn head-section__btn btn__black btn__hover-white btn-6">Know more
+            <span></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="about d-flex flex-column flex-md-row align-items-center">
+          <div class="about__awards position-relative d-flex flex-wrap justify-content-center">
+            <a href="https://clutch.co/profile/split-development" class="about__award" target="_blank">
+              <img src="images/clutch-2x.png" alt="award">
+            </a>
+            <a href="#" class="about__award about__award--empty" target="_blank">
+              <img src="images/polygon.png" alt="award">
+            </a>
+            <a href="https://www.upwork.com/agencies/~010ba045c8f4dc7341" class="about__award" target="_blank">
+              <img src="images/upwork-2x.png" alt="award">
+            </a>
+            <a href="#" class="about__award about__award--empty" target="_blank">
+              <img src="images/polygon.png" alt="award">
+            </a>
+            <a href="#" class="about__award about__award--empty" target="_blank">
+              <img src="images/polygon.png" alt="award">
+            </a>
+          </div>
+          <div class="about__desc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home__instagram"> 
+      <div class="container position-relative">
+        <div class="head-section w-100 d-md-flex align-items-md-center justify-content-between">
+        
+          <div class="head-section__item">
+            <a href="https://www.instagram.com/splitdev.pro/" class="insta-link d-flex align-items-center">
+              <figure class="insta-link__img position-relative">
+                <img src="images/insta_logo.svg" alt="">
+              </figure>
+              <p class="head-section__text">Our Instagram Profile</p>
+            </a>
+          </div>
+         
+          <div class="head-section__item">
+            <a href="https://www.instagram.com/splitdev.pro/" class="btn head-section__btn btn__black btn__hover-white btn-6">See Instagram
+              <span></span>
+            </a>
+          </div>
+
+        </div>  
+
+        <div class="instagram w-100">
+          <div class="instagram__content  " id="instafeed">
+<div class="instagram-images row no-gutters -one " data-username="splitdev.pro" data-count="3">
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+  </div>
+  <!-- /home -->
+  <!-- /home -->
+  <!-- /home -->
+  <!-- /home -->
+
+  <!-- footer -->
+  <footer class="footer d-flex flex-column justify-content-center position-relative"
+    style="background-image: url('images/footer-bg.png')">
+    <!-- id="particleBackground"-->
+  
+    <div class="container position-relative">
+      <div class="hire-us d-flex flex-column flex-md-row align-items-center justify-content-between" id="hire">
+        <div class="hire-us__body">
+          <h2 class="hire-us__title">Let<span class="red-span">’</span>s Talk</h2>
+          <p class="hire-us__desc">We collaborate with ambitious people and brands. Let's chat about what we can do for
+            you.</p>
+        </div>
+  
+        <a href="contact.html" class="btn hire-us__btn btn__red btn__hover-grey btn-6">Drop us a line
+          <span></span>
+        </a>
+  
+      </div>
+      <div class="footer__inner w-100 d-flex flex-column-reverse flex-md-row">
+        <div class="footer__info">
+          <a href="/" class="logo">
+           <img src="images/logo/logo-white.svg" alt="logo-white.svg">
+          </a>
+          <address class="d-flex flex-column flex-wrap mb-0">
+            <a 
+              href="https://www.google.com/maps/place/SPLIT+Development/@48.510913,32.2634193,15z/data=!4m5!3m4!1s0x0:0x51a08cb3fab6cf4a!8m2!3d48.510913!4d32.2634193" target="_blank">Victor
+              Chmilenko 47, Kropyvnytskyi, 25006</a>
+            <a href="tel:0977003001">097 700 3001</a>
+            <a href="mailto:info@splitdev.pro">info@splitdev.pro</a> 
+          </address>
+        </div>
+        <div class="footer__nav d-flex flex-wrap">
+          <ul class="footer__list list">
+            <li class="footer__item">
+              <a href="portfolio.html" class="footer__link animation-letters" target="_blank">Portfolio</a>
+            </li>
+            <li class="footer__item">
+              <a href="what_we_do.html" class="footer__link animation-letters" target="_blank">What we do</a>
+            </li>
+            <li class="footer__item">
+              <a href="work_process.html" class="footer__link animation-letters" target="_blank">Work process</a>
+            </li>
+            <li class="footer__item">
+              <a href="about.html" class="footer__link animation-letters" target="_blank">About us</a>
+            </li>
+            <li class="footer__item">
+              <a href="contact.html" class="footer__link animation-letters" target="_blank">Contact us</a>
+            </li>
+          </ul>
+          <ul class="footer__list list">
+            <li class="footer__item">
+              <a href="https://dribbble.com/splitdev" class="footer__link animation-letters" target="_blank">Dribbble</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.behance.net/splitdev" class="footer__link animation-letters" target="_blank">Behance</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.instagram.com/splitdev.pro" class="footer__link animation-letters" target="_blank">Instagram</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.facebook.com/splitdevelopment" class="footer__link animation-letters" target="_blank">Facebook</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.linkedin.com/company/splitdev" class="footer__link animation-letters" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">2019 © SPLIT Development, LLC. All rights reserved.</div>
+    </div>
+    <!--
+    <div class="footer__inner">
+  
+      <div class="footer__info">
+        <a href="/" class="logo">
+          <img src="images/logo_footer.svg">
+        </a>
+        <address>
+          <a
+            href="https://www.google.com/maps/place/SPLIT+Development/@48.510913,32.2634193,15z/data=!4m5!3m4!1s0x0:0x51a08cb3fab6cf4a!8m2!3d48.510913!4d32.2634193">Victor
+            Chmilenko 47, Kropyvnytskyi, 25006</a>
+          <a href="tel:0977003001">097 700 3001</a>
+          <a href="mailto:info@splitdev.pro">info@splitdev.pro</a>
+        </address>
+      </div>
+      <div class="footer__nav d-flex flex-wrap">
+        <ul class="footer__list list">
+          <li class="footer__item">
+            <a href="portfolio.html" class="footer__link" target="_blank">Portfolio</a>
+          </li>
+          <li class="footer__item">
+            <a href="what_we_do.html" class="footer__link" target="_blank">What we do</a>
+          </li>
+          <li class="footer__item">
+            <a href="work_process.html" class="footer__link" target="_blank">Work process</a>
+          </li>
+          <li class="footer__item">
+            <a href="about.html" class="footer__link" target="_blank">About us</a>
+          </li>
+          <li class="footer__item">
+            <a href="contact.html" class="footer__link" target="_blank">Contact us</a>
+          </li>
+        </ul>
+        <ul class="footer__list list">
+          <li class="footer__item">
+            <a href="https://dribbble.com/splitdev" class="footer__link" target="_blank">Dribbble</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://www.behance.net/splitdev" class="footer__link" target="_blank">Behance</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://www.instagram.com/splitdev.pro" class="footer__link" target="_blank">Instagram</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://www.facebook.com/splitdevelopment" class="footer__link" target="_blank">Facebook</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://www.linkedin.com/company/splitdev" class="footer__link" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+      <!--
+        <div class="row">
+          <div class="col-sm-5">
+            <a href="/" class="logo">
+              <img src="images/logo_footer.svg">
+            </a>
+            <ul class="list first">
+              <li>
+                <a href="https://www.google.com/maps/place/SPLIT+Development/@48.510913,32.2634193,15z/data&#x3D;!4m5!3m4!1s0x0:0x51a08cb3fab6cf4a!8m2!3d48.510913!4d32.2634193" target="_blank">Victor Chmilenko 47, Kropyvnytskyi, 25006</a>
+              </li>
+              <li>
+                <a href="tel:0977003001" target="_blank">097 700 3001</a>
+              </li>
+              <li>
+                <a href="mailto:info@splitdev.pro" target="_blank">info@splitdev.pro</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-3">
+            <ul class="list other">
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="what_we_do.html">What we do</a>
+              </li>
+              <li>
+                <a href="work_process.html">Work process</a>
+              </li>
+              <li>
+                <a href="about.html">About us</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <ul class="list other">
+              <li>
+                <a href="https://dribbble.com/splitdev" target="_blank">Dribbble</a>
+              </li>
+              <li>
+                <a href="https://www.behance.net/splitdev" target="_blank">Behance</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/splitdev.pro" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/splitdevelopment" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/splitdev" target="_blank">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 last d-flex align-items-center justify-content-end">
+            <a href="#" id="toTop" class="top d-flex align-items-center justify-content-center to-top">
+              <img src="images/top.svg">
+            </a>
+          </div>
+        </div>
+      <div class="copyright">2019 © SPLIT Development, LLC. All rights reserved.</div>
+      -->
+  </footer>
+  <!-- /footer -->
+
+  <!-- icons -->
+  <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="logo-white" viewBox="0 0 91 34">
+      <g>
+        <g>
+          <g>
+            <path fill="#fff"
+              d="M5.208 29.108c.517 0 .919.172 1.206.516.288.344.432.77.432 1.279 0 .524-.144.958-.432 1.302-.287.344-.69.516-1.206.516H4.052v-3.613zm2.099 3.955c.526-.519.79-1.231.79-2.136 0-.906-.259-1.623-.774-2.153-.51-.53-1.217-.794-2.123-.794H2.85v5.87h2.302c.916 0 1.635-.263 2.155-.787z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M15.455 33.85H11.38v-5.87h4.075v1.096h-2.862v1.263h2.65v1.096h-2.65v1.318h2.862z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M21.157 32.038l1.577-4.058h1.367l-2.464 5.87h-.96l-2.497-5.87h1.39z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M31.174 33.85H27.1v-5.87h4.074v1.096h-2.862v1.263h2.65v1.096h-2.65v1.318h2.862z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M38.811 33.85H34.55v-5.87h1.212v4.741h3.05z" />
+          </g>
+          <g>
+            <path fill="#fff"
+              d="M45.722 32.256c-.363.355-.81.532-1.34.532-.532 0-.978-.177-1.341-.532-.357-.355-.537-.8-.537-1.334 0-.54.182-.988.545-1.342a1.84 1.84 0 0 1 1.332-.54c.52 0 .964.18 1.333.54.363.354.544.802.544 1.342.006.535-.174.98-.536 1.334zm.88.81c.607-.588.91-1.302.91-2.144 0-.842-.303-1.56-.91-2.153-.602-.592-1.342-.889-2.22-.889-.88 0-1.621.297-2.229.89a2.927 2.927 0 0 0-.903 2.168c0 .847.298 1.562.895 2.144.59.577 1.334.866 2.229.866.883 0 1.626-.294 2.227-.882z" />
+          </g>
+          <g>
+            <path fill="#fff"
+              d="M51.983 29.068h1.039c.267 0 .48.08.638.238a.798.798 0 0 1 .245.596.828.828 0 0 1-.254.62c-.163.158-.395.238-.695.238h-.973zm-1.203 4.781h1.203v-2.025h.928c.737 0 1.29-.18 1.659-.54.369-.37.553-.826.553-1.366 0-.545-.179-1.003-.537-1.374-.352-.376-.88-.564-1.586-.564h-2.22z" />
+          </g>
+          <g>
+            <path fill="#fff"
+              d="M59.438 33.85H58.25v-5.87h.797l2.359 3.328 2.334-3.328h.814v5.87H63.35V30.52l-1.749 2.455h-.414l-1.75-2.455z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M72.235 33.85H68.16v-5.87h4.075v1.096h-2.862v1.263h2.65v1.096h-2.65v1.318h2.862z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M79.557 31.61v-3.63h1.188v5.87h-.822l-3.115-3.599v3.598H75.62V27.98h.765z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M85.516 33.85v-4.734H83.8V27.98h4.652v1.136h-1.716v4.733z" />
+          </g>
+          <g>
+            <path fill="#fff"
+              d="M8.219 21.926c-1.628 0-3.135-.34-4.52-1.017A8.44 8.44 0 0 1 .36 18.026l2.386-2.912c1.384 1.941 3.218 2.912 5.5 2.912.861 0 1.573-.208 2.134-.622.561-.415.842-.952.842-1.611 0-.867-.627-1.593-1.88-2.177-.15-.075-.834-.348-2.05-.82a20.432 20.432 0 0 1-2.441-1.13c-2.19-1.263-3.284-2.996-3.284-5.2 0-1.753.655-3.204 1.964-4.353C4.861.944 6.562.36 8.64.36c2.695 0 4.968.942 6.82 2.826L13.243 6.24c-.56-.603-1.263-1.074-2.104-1.413-.824-.358-1.638-.537-2.443-.537-.822 0-1.477.188-1.964.565-.468.358-.702.839-.702 1.442 0 .81.562 1.498 1.684 2.063l2.049.904c1.16.49 2.002.858 2.527 1.103 2.357 1.15 3.536 2.883 3.536 5.2 0 1.866-.702 3.392-2.106 4.58-1.403 1.187-3.236 1.78-5.5 1.78z" />
+          </g>
+          <g>
+            <path fill="#fff"
+              d="M24.704 4.572h3.564c.917 0 1.647.283 2.19.848.56.566.841 1.272.841 2.12 0 .886-.29 1.62-.87 2.205-.561.565-1.357.848-2.385.848h-3.34zM20.55 21.588h4.154V14.38h3.2c2.544 0 4.452-.64 5.725-1.922 1.272-1.319 1.909-2.94 1.909-4.861 0-1.941-.618-3.571-1.853-4.89C32.468 1.369 30.645.7 28.212.7H20.55z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M54.586 21.588H39.88V.7h4.182v16.874h10.524z" />
+          </g>
+          <g>
+            <path fill="#ff4141" d="M58.69 21.588L64.936.7h4.684l-6.247 20.888z" />
+          </g>
+          <g>
+            <path fill="#fff" d="M80.402 21.588V4.742H74.48V.7h16.053v4.042h-5.921v16.846z" />
+          </g>
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="logo-black" viewBox="0 0 91 34">
+      <g>
+        <g>
+          <g>
+            <path
+              d="M5.208 29.108c.517 0 .919.172 1.206.516.288.344.432.77.432 1.279 0 .524-.144.958-.432 1.302-.287.344-.69.516-1.206.516H4.052v-3.613zm2.099 3.955c.526-.519.79-1.231.79-2.136 0-.906-.259-1.623-.774-2.153-.51-.53-1.217-.794-2.123-.794H2.85v5.87h2.302c.916 0 1.635-.263 2.155-.787z" />
+          </g>
+          <g>
+            <path d="M15.455 33.85H11.38v-5.87h4.075v1.096h-2.862v1.263h2.65v1.096h-2.65v1.318h2.862z" />
+          </g>
+          <g>
+            <path d="M21.157 32.038l1.577-4.058h1.367l-2.464 5.87h-.96l-2.497-5.87h1.39z" />
+          </g>
+          <g>
+            <path d="M31.174 33.85H27.1v-5.87h4.074v1.096h-2.862v1.263h2.65v1.096h-2.65v1.318h2.862z" />
+          </g>
+          <g>
+            <path d="M38.811 33.85H34.55v-5.87h1.212v4.741h3.05z" />
+          </g>
+          <g>
+            <path
+              d="M45.722 32.256c-.363.355-.81.532-1.34.532-.532 0-.978-.177-1.341-.532-.357-.355-.537-.8-.537-1.334 0-.54.182-.988.545-1.342a1.84 1.84 0 0 1 1.332-.54c.52 0 .964.18 1.333.54.363.354.544.802.544 1.342.006.535-.174.98-.536 1.334zm.88.81c.607-.588.91-1.302.91-2.144 0-.842-.303-1.56-.91-2.153-.602-.592-1.342-.889-2.22-.889-.88 0-1.621.297-2.229.89a2.927 2.927 0 0 0-.903 2.168c0 .847.298 1.562.895 2.144.59.577 1.334.866 2.229.866.883 0 1.626-.294 2.227-.882z" />
+          </g>
+          <g>
+            <path
+              d="M51.983 29.068h1.039c.267 0 .48.08.638.238a.798.798 0 0 1 .245.596.828.828 0 0 1-.254.62c-.163.158-.395.238-.695.238h-.973zm-1.203 4.781h1.203v-2.025h.928c.737 0 1.29-.18 1.659-.54.369-.37.553-.826.553-1.366 0-.545-.179-1.003-.537-1.374-.352-.376-.88-.564-1.586-.564h-2.22z" />
+          </g>
+          <g>
+            <path
+              d="M59.438 33.85H58.25v-5.87h.797l2.359 3.328 2.334-3.328h.814v5.87H63.35V30.52l-1.749 2.455h-.414l-1.75-2.455z" />
+          </g>
+          <g>
+            <path d="M72.235 33.85H68.16v-5.87h4.075v1.096h-2.862v1.263h2.65v1.096h-2.65v1.318h2.862z" />
+          </g>
+          <g>
+            <path d="M79.557 31.61v-3.63h1.188v5.87h-.822l-3.115-3.599v3.598H75.62V27.98h.765z" />
+          </g>
+          <g>
+            <path d="M85.516 33.85v-4.734H83.8V27.98h4.652v1.136h-1.716v4.733z" />
+          </g>
+          <g>
+            <path
+              d="M8.219 21.926c-1.628 0-3.135-.34-4.52-1.017A8.44 8.44 0 0 1 .36 18.026l2.386-2.912c1.384 1.941 3.218 2.912 5.5 2.912.861 0 1.573-.208 2.134-.622.561-.415.842-.952.842-1.611 0-.867-.627-1.593-1.88-2.177-.15-.075-.834-.348-2.05-.82a20.432 20.432 0 0 1-2.441-1.13c-2.19-1.263-3.284-2.996-3.284-5.2 0-1.753.655-3.204 1.964-4.353C4.861.944 6.562.36 8.64.36c2.695 0 4.968.942 6.82 2.826L13.243 6.24c-.56-.603-1.263-1.074-2.104-1.413-.824-.358-1.638-.537-2.443-.537-.822 0-1.477.188-1.964.565-.468.358-.702.839-.702 1.442 0 .81.562 1.498 1.684 2.063l2.049.904c1.16.49 2.002.858 2.527 1.103 2.357 1.15 3.536 2.883 3.536 5.2 0 1.866-.702 3.392-2.106 4.58-1.403 1.187-3.236 1.78-5.5 1.78z" />
+          </g>
+          <g>
+            <path
+              d="M24.704 4.572h3.564c.917 0 1.647.283 2.19.848.56.566.841 1.272.841 2.12 0 .886-.29 1.62-.87 2.205-.561.565-1.357.848-2.385.848h-3.34zM20.55 21.588h4.154V14.38h3.2c2.544 0 4.452-.64 5.725-1.922 1.272-1.319 1.909-2.94 1.909-4.861 0-1.941-.618-3.571-1.853-4.89C32.468 1.369 30.645.7 28.212.7H20.55z" />
+          </g>
+          <g>
+            <path d="M54.586 21.588H39.88V.7h4.182v16.874h10.524z" />
+          </g>
+          <g>
+            <path fill="#ff4141" d="M58.69 21.588L64.936.7h4.684l-6.247 20.888z" />
+          </g>
+          <g>
+            <path d="M80.402 21.588V4.742H74.48V.7h16.053v4.042h-5.921v16.846z" />
+          </g>
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="close" viewBox="0 0 24 23">
+      <g>
+        <g transform="rotate(45 12 11.5)">
+          <g transform="rotate(90 12 11.5)">
+            <path d="M-3 10h30v3H-3z" />
+          </g>
+          <g>
+            <path d="M-3 10h30v3H-3z" />
+          </g>
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="upwork" viewBox="0 0 50 50">
+      <g>
+        <g>
+          <path
+            d="M34.745 28.07c1.983 0 3.6-1.64 3.606-3.649 0-2.014-1.617-3.655-3.606-3.655-2.651 0-3.513 2.595-3.785 4.14l-.014.053-.305 1.45c1.254 1.03 2.632 1.66 4.104 1.66zm0-11.007c3.998 0 7.252 3.299 7.255 7.343 0 4.052-3.254 7.372-7.252 7.372-1.87 0-3.5-.577-4.92-1.498L28.212 38h-3.733l2.234-10.643c-1.055-1.345-1.922-2.857-2.632-4.355v1.613c0 3.938-3.162 7.17-7.046 7.17-3.884 0-7.047-3.232-7.034-7.17V15h3.646v9.615c0 1.895 1.523 3.44 3.394 3.44 1.87 0 3.394-1.545 3.394-3.44V15h3.645c.723 2.507 1.955 5.483 3.586 7.963 1.067-3.669 3.693-5.9 7.08-5.9zM24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0z" />
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="behance" viewBox="0 0 50 50">
+      <g>
+        <g>
+          <path d="M20.894 20.69c0-1.9-1.293-1.9-1.293-1.9H14.28v4.078h4.991c.863 0 1.623-.275 1.623-2.178z" />
+        </g>
+        <g>
+          <path d="M33.225 22.86c-2.821 0-3.215 2.814-3.215 2.814h6.002c0 .002.037-2.814-2.787-2.814z" />
+        </g>
+        <g>
+          <path
+            d="M19.598 25.68H14.28v4.886h4.711c.08 0 .198.004.339 0 .757-.019 2.196-.235 2.196-2.374 0-2.536-1.928-2.512-1.928-2.512z" />
+        </g>
+        <g>
+          <path
+            d="M39.502 28.119h-9.464c0 3.396 3.215 3.182 3.215 3.182 3.033 0 2.928-1.966 2.928-1.966h3.216c0 5.218-6.25 4.859-6.25 4.859-7.497 0-7.015-6.985-7.015-6.985s-.007-7.022 7.016-7.022c7.39 0 6.352 7.932 6.354 7.932zm-14.095.293c0 5.574-5.806 5.392-5.806 5.392h-9.508V15.539h9.508c2.891 0 5.172 1.596 5.172 4.864s-2.788 3.475-2.788 3.475c3.675 0 3.422 4.534 3.422 4.534zm3.812-11.797h7.539v2.251h-7.539zM24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0z" />
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="dribble" viewBox="0 0 50 50">
+      <g>
+        <g>
+          <path
+            d="M24.086 20.454c-2.305-4.097-4.769-7.435-4.945-7.674a13.342 13.342 0 0 0-7.351 9.301c.351.006 5.901.072 12.296-1.627z" />
+        </g>
+        <g>
+          <path
+            d="M33.635 14.832a13.283 13.283 0 0 0-8.803-3.322c-1.083 0-2.134.132-3.142.375.2.264 2.703 3.587 4.983 7.771 5.03-1.886 6.93-4.772 6.962-4.824z" />
+        </g>
+        <g>
+          <path
+            d="M27.09 27.008c-7.864 2.74-10.427 8.267-10.45 8.315a13.247 13.247 0 0 0 8.182 2.825c1.846 0 3.602-.378 5.2-1.058-.197-1.164-.973-5.242-2.846-10.11a.863.863 0 0 0-.086.028z" />
+        </g>
+        <g>
+          <path
+            d="M25.75 24.934c.174-.057.35-.11.523-.159a41.35 41.35 0 0 0-1.08-2.265c-6.856 2.053-13.438 1.902-13.672 1.898-.005.14-.011.278-.011.42 0 3.422 1.291 6.541 3.411 8.901l-.005-.008c.001.004 3.646-6.464 10.834-8.787z" />
+        </g>
+        <g>
+          <path
+            d="M40.104 27.969a15.686 15.686 0 0 1-.908 2.931 15.78 15.78 0 0 1-1.438 2.649 16.043 16.043 0 0 1-1.901 2.308 15.715 15.715 0 0 1-4.957 3.339c-.941.397-1.929.704-2.931.91a15.632 15.632 0 0 1-3.141.315 15.64 15.64 0 0 1-3.141-.315 15.72 15.72 0 0 1-2.931-.91 15.61 15.61 0 0 1-6.859-5.647 15.754 15.754 0 0 1-1.438-2.649 15.623 15.623 0 0 1-.91-2.931 15.706 15.706 0 0 1-.316-3.144A15.557 15.557 0 0 1 13.799 13.8a15.586 15.586 0 0 1 4.956-3.342 15.589 15.589 0 0 1 6.072-1.226 15.651 15.651 0 0 1 6.073 1.226c.926.392 1.815.873 2.649 1.438a15.617 15.617 0 0 1 4.209 4.211 15.62 15.62 0 0 1 1.438 2.647c.396.943.705 1.93.909 2.932.211 1.025.315 2.082.315 3.139 0 1.06-.106 2.115-.316 3.144zM24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0z" />
+        </g>
+        <g>
+          <path
+            d="M29.68 26.364c1.748 4.8 2.457 8.709 2.592 9.514a13.332 13.332 0 0 0 5.709-8.933c-.276-.091-4.002-1.267-8.301-.581z" />
+        </g>
+        <g>
+          <path
+            d="M27.69 21.639c.312.635.608 1.28.887 1.932.1.23.192.46.287.688 4.576-.574 9.084.396 9.274.437a13.246 13.246 0 0 0-3.026-8.326c-.023.035-2.16 3.123-7.422 5.269z" />
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="facebook" viewBox="0 0 50 50">
+      <g>
+        <g>
+          <path
+            d="M48.485 24.242C48.485 10.856 37.629 0 24.242 0 10.856 0 0 10.856 0 24.242 0 37.63 10.856 48.485 24.242 48.485c.143 0 .285-.003.427-.006V29.608H19.46v-6.07h5.209V19.07c0-5.18 3.162-8 7.783-8 2.213 0 4.115.165 4.67.239v5.414h-3.187c-2.514 0-3 1.195-3 2.948v3.866h6.01l-.783 6.07h-5.228v17.94c10.133-2.905 17.55-12.24 17.55-23.306z" />
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="instagram" viewBox="0 0 50 50">
+      <g>
+        <g>
+          <path d="M29.78 24.995a4.785 4.785 0 1 1-9.57 0 4.785 4.785 0 0 1 9.57 0z" />
+        </g>
+        <g>
+          <path
+            d="M32.657 19.058a1.72 1.72 0 0 1-1.718-1.722c0-.952.77-1.723 1.718-1.723a1.72 1.72 0 0 1 1.718 1.723 1.72 1.72 0 0 1-1.718 1.722zM25 32.37a7.372 7.372 0 1 1 0-14.743 7.372 7.372 0 0 1 0 14.743zm10.117-17.488a4.445 4.445 0 0 0-1.65-1.074c-.506-.197-1.266-.43-2.666-.494-1.514-.07-1.968-.084-5.8-.084-3.834 0-4.288.015-5.802.084-1.4.064-2.16.297-2.665.494a4.442 4.442 0 0 0-1.65 1.074 4.45 4.45 0 0 0-1.075 1.65c-.197.506-.43 1.266-.494 2.666-.07 1.514-.084 1.968-.084 5.801s.015 4.287.084 5.801c.064 1.4.297 2.16.494 2.665a4.45 4.45 0 0 0 1.074 1.651 4.445 4.445 0 0 0 1.65 1.074c.506.197 1.266.43 2.666.494 1.514.07 1.967.084 5.8.084 3.834 0 4.288-.015 5.802-.084 1.4-.063 2.16-.297 2.665-.494a4.754 4.754 0 0 0 2.725-2.725c.196-.505.43-1.265.494-2.665.07-1.514.084-1.968.084-5.8 0-3.834-.015-4.288-.084-5.802-.063-1.4-.297-2.16-.494-2.666a4.448 4.448 0 0 0-1.074-1.65z" />
+        </g>
+        <g>
+          <path
+            d="M38.611 34.412a7.343 7.343 0 0 1-4.2 4.2c-.913.354-1.957.597-3.485.667-1.531.07-2.02.086-5.92.086-3.901 0-4.39-.016-5.922-.086-1.528-.07-2.572-.313-3.485-.668a7.036 7.036 0 0 1-2.544-1.656 7.038 7.038 0 0 1-1.656-2.543c-.355-.914-.598-1.958-.667-3.486-.071-1.532-.087-2.021-.087-5.921 0-3.9.016-4.39.086-5.92.07-1.53.312-2.573.667-3.486a7.035 7.035 0 0 1 1.657-2.544A7.034 7.034 0 0 1 15.6 11.4c.913-.355 1.957-.598 3.485-.668 1.532-.07 2.021-.086 5.921-.086 3.9 0 4.39.016 5.92.087 1.53.069 2.573.312 3.487.666a7.04 7.04 0 0 1 2.543 1.657 7.036 7.036 0 0 1 1.656 2.544c.356.913.598 1.957.668 3.485.07 1.532.086 2.021.086 5.921 0 3.9-.016 4.39-.086 5.92-.07 1.53-.313 2.573-.668 3.487zM25 0C11.195 0 0 11.195 0 25s11.195 25 25 25 25-11.195 25-25S38.805 0 25 0z" />
+        </g>
+      </g>
+    </symbol>
+  
+    <symbol id="linkedin" viewBox="0 0 50 50">
+      <g>
+        <g>
+          <path
+            d="M39.7 37.783h-6.092v-9.794c0-2.462-.882-4.14-3.086-4.14-1.683 0-2.685 1.132-3.125 2.225-.161.391-.2.938-.2 1.485v10.224h-6.092s.08-16.59 0-18.308h6.091v2.592c.81-1.247 2.258-3.022 5.49-3.022 4.008 0 7.014 2.617 7.014 8.24zM14.69 16.973h-.04c-2.043 0-3.364-1.406-3.364-3.163 0-1.798 1.362-3.165 3.445-3.165 2.082 0 3.364 1.367 3.404 3.165 0 1.757-1.322 3.164-3.445 3.164zm3.044 20.81h-6.088V19.475h6.088zM25 0C11.195 0 0 11.195 0 25s11.195 25 25 25 25-11.195 25-25S38.805 0 25 0z" />
+        </g>
+      </g>
+    </symbol>
+  </svg>
+  <!-- /icons -->
+<script type="text/javascript" src="./scripts/main.js"></script></body>
+
+</html>
