@@ -12209,7 +12209,8 @@ headerWhite.css({
             body.classList.remove('hidden');
             homeBanner.classList.remove('open-menu');
             homeBanner.classList.add('close-menu');
-             header_menu.classList.remove('js-opened');
+            header_menu.classList.remove('js-opened');
+            header.classList.remove('js-opened'); 
           }
         });
         // if ($(window).width() > 992) {

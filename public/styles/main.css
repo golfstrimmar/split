@@ -14046,6 +14046,11 @@ body {
   position: relative;
   margin-bottom: 52px;
 }
+.connect__form-item p{
+  margin: 0 0 0 0;
+}
+
+
 
 .connect__form-item label {
   position: absolute;
